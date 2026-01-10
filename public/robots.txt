@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /api/
+Allow: /
+
+
+Sitemap: https://chavesnightmares.org/sitemap.xml

@@ -1,8 +1,11 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #050505;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -17,6 +20,26 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+@keyframes pulse-subtle {
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: drop-shadow(0 0 10px rgba(139, 0, 0, 0.8));
+  }
+
+  50% {
+    opacity: 0.9;
+    transform: scale(1.02);
+    filter: drop-shadow(0 0 15px rgba(139, 0, 0, 1));
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s ease-in-out infinite;
 }
 
 body {
