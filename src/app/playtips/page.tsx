@@ -20,13 +20,13 @@ export default function PlaytipsPage() {
                     </h1>
 
                     <p className="text-sm md:text-base text-gray-400">
-                        Official Gameplay Guide for Chaves Nightmares
+                        Gameplay Guide for Chaves Nightmares
                     </p>
                 </section>
 
                 {/* ===== Content ===== */}
                 <div className="border-fear bg-black/40 p-6 md:p-8 space-y-6">
-                    <h2 className="text-2xl md:text-3xl font-bold text-red-500">Chaves Nightmares - Official Gameplay Guide</h2>
+                    <h2 className="text-2xl md:text-3xl font-bold text-red-500">Chaves Nightmares - Gameplay Guide</h2>
 
                     <p className="text-gray-300 leading-relaxed"><strong className="text-red-400">Chaves Nightmares</strong> is a survival horror game inspired by the iconic TV show <em className="text-gray-400">El Chavo del Ocho</em>, reimagined with a dark and unsettling atmosphere. Players assume the role of a detective investigating a closed thematic venue where costumed characters (botargas) turned violent, resulting in fatal incidents. Survive five nights, uncover the mystery, and identify the culprit.</p>
 

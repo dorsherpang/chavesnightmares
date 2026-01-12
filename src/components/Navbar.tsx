@@ -10,8 +10,8 @@ export default function Navbar() {
         { label: 'Home', href: '/' },
         { label: 'Download', href: '/download' },
         { label: 'How to play', href: '/playtips' },
-        //{ label: 'Version', href: '#' },
-        //{ label: 'Blog', href: '#' },
+        { label: 'Blog', href: '/blog' },
+        { label: 'Horrible games', href: '/horriblegames' },
     ];
 
     return (
