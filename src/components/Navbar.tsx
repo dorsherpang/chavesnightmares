@@ -9,6 +9,7 @@ export default function Navbar() {
     const menuItems = [
         { label: 'Home', href: '/' },
         { label: 'Download', href: '/download' },
+        { label: 'How to play', href: '/playtips' },
         //{ label: 'Version', href: '#' },
         //{ label: 'Blog', href: '#' },
     ];
