@@ -3,6 +3,7 @@ import Image from 'next/image';
 import GameIntro from '@/components/GameIntro';
 import GameStory from '@/components/GameStory';
 import FAQ from '@/components/FAQ';
+import MediaSwitcher from '@/components/MediaSwitcher';
 export default function HomePage() {
 
   return (
@@ -82,7 +83,7 @@ export default function HomePage() {
         </a>
       </div>
 
-
+      <MediaSwitcher></MediaSwitcher>
       <GameIntro></GameIntro>
       <GameStory></GameStory>
       <FAQ></FAQ>

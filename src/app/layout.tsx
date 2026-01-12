@@ -5,8 +5,8 @@ import { Metadata } from 'next';
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: 'Chaves Nightmares - Horror Game for Android & Windows | Free Download & Latest Version',
-  description: 'Play Chaves Nightmares, a thrilling horror game for Android and Windows. Explore eerie environments, solve puzzles, and enjoy an adventure. Free download available!',
+  title: 'Chaves Nightmares - Horror Game for Android & Windows & Latest Version',
+  description: 'Play Chaves Nightmares, a thrilling horror game for Android and Windows. Free download available!',
   alternates: {
     canonical: 'https://chavesnightmares.org',
   },
