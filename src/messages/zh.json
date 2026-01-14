@@ -1,0 +1,43 @@
+{
+    "site": {
+        "name": "Chaves Nightmares"
+    },
+    "nav": {
+        "home": "首页",
+        "download": "下载",
+        "howToPlay": "玩法指南",
+        "resource": "资源",
+        "popularGames": "热门游戏",
+        "blog": "博客"
+    },
+    "home": {
+        "title": "Chaves Nightmares",
+        "description": "恐怖游戏体验",
+        "supportedPlatforms": "支持平台",
+        "developer": "开发者",
+        "genre": "类型",
+        "language": "语言",
+        "latestVersion": "最新版本",
+        "updateDate": "更新日期",
+        "downloadNow": "立即下载",
+        "platforms": "Windows, Android",
+        "developerName": "Green Jerry",
+        "genreDesc": "生存 / 恐怖 / 冒险",
+        "gameLanguage": "葡萄牙语",
+        "version": "V1.0.4",
+        "year": "2026"
+    },
+    "intro": {
+        "title": "游戏介绍",
+        "description1": "Chaves Nightmares 是一款受《Five Nights at Freddy's》启发的恐怖同人游戏，背景设定在经典电视剧《El Chavo del 8》的黑暗重塑版本中。",
+        "description2": "游戏将玩家置于紧张的环境中，熟悉的角色和地点被重新设计成令人不安的恐怖美学。玩家必须依靠仔细观察、声音提示和有限的资源来应对不断升级的威胁。游戏具有氛围化的视觉效果、悬念驱动的声音设计和针对移动设备的优化控制，强调生存恐怖机制和心理紧张感。"
+    },
+    "story": {
+        "title": "故事背景",
+        "description1": "故事的核心是一个未解决的谜团。玩家扮演一名侦探，被指派调查一个长期废弃的Chaves主题场所，那里多年前发生了一起严重事件。每晚，生存成为首要任务，随着新线索逐渐揭示场内发生的事情。",
+        "description2": "游戏不是依靠过场动画或直接说明，而是通过环境细节、碎片化信息和沉默时刻来传达叙事。故事元素通过观察和上下文发现，创造了一种缓慢燃烧的叙事形式，在整个体验中强化紧张感和不确定性。"
+    },
+    "faq": {
+        "title": "常见问题"
+    }
+}

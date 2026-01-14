@@ -2,53 +2,53 @@
 
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Iframe from '../../../components/Iframe'
+import Iframe from '../../../../components/Iframe'
 
 export const metadata: Metadata = {
-    title: 'PokéPath TD - Play Online Tower Defense Game',
-    description: 'Play PokéPath TD, a fun tower defense game online. Build towers, defend against waves, and enjoy strategic gameplay!',
+    title: 'Six-Sided Streets - Strategic City Building Game',
+    description: 'Discover Six-Sided Streets, an engaging strategic city-building and tile-laying game. Build charming towns by placing hex tiles, connect terrains, and score big in this relaxing browser-based experience!',
     alternates: {
-        canonical: 'https://chavesnightmares.org/populargames/pokepath',
+        canonical: 'https://chavesnightmares.org/populargames/sixsidedstreets',
     },
     robots: 'index, follow',
     openGraph: {
-        title: 'PokéPath TD - Online Tower Defense Game',
-        description: 'Play PokéPath TD, a fun tower defense game online. Build towers, defend against waves, and enjoy strategic gameplay!',
-        url: 'https://chavesnightmares.org/populargames/pokepath',
+        title: 'Six-Sided Streets - Online City Building Game',
+        description: 'Discover Six-Sided Streets, an engaging strategic city-building and tile-laying game. Build charming towns by placing hex tiles, connect terrains, and score big in this relaxing browser-based experience!',
+        url: 'https://chavesnightmares.org/populargames/sixsidedstreets',
         siteName: 'Chaves Nightmares',
         type: 'website',
         locale: 'en_US',
         images: [
             {
-                url: '/gameshotpic1.png', // 假设使用相同的图片，或替换为pokepath的
+                url: '/sixsidedstreets.png',
                 width: 1200,
                 height: 630,
-                alt: 'PokéPath TD Game Banner',
+                alt: 'Six-Sided Streets Game Banner',
             },
         ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'PokéPath TD - Online Tower Defense Game',
-        description: 'Play PokéPath TD, a fun tower defense game online. Build towers, defend against waves, and enjoy strategic gameplay!',
-        images: ['/gameshotpic1.png'],
+        title: 'Six-Sided Streets - Online City Building Game',
+        description: 'Discover Six-Sided Streets, an engaging strategic city-building and tile-laying game. Build charming towns by placing hex tiles, connect terrains, and score big in this relaxing browser-based experience!',
+        images: ['/sixsidedstreets.png'],
     },
 };
 
-export default function PokepathPage() {
-
-    const videoIds = ['farpEOYw9aM', 'EShrhzazf5E', 'U7cpB0SqtcU']; // 示例YouTube视频ID数组，替换为实际的
+export default function SixsidedPage() {
     const faqs = [
         {
-            q: "Can save data from other websites？",
-            a: "Yes, save code is base64-encoded and fully compatible."
+            q: "How does scoring work in Six-Sided Streets?",
+            a: "Scoring depends on how different terrain types are placed and connected. Brick roads extend from the town center, parks and buildings score based on position, harborfronts allow road connections, and wind turbines must be placed on higher ground. Connecting wind turbines together deducts points."
         },
         {
-            q: "Can I export Pokepath save data on mobile?",
-            a: "Use Chrome, export save as .txt, and import it in version 1.3.3+"
+            q: "Is Six-Sided Streets replayable?",
+            a: "Yes. Each time the game loads, a random map and set of pieces are generated. This creates different layouts and challenges every playthrough, encouraging players to try new strategies and improve their score."
         },
 
     ];
+    const videoIds = ['kG3sZVvMOpc', 'BcUEvljM52w', 'CuTkoJgPmZE']; // 示例YouTube视频ID数组，替换为实际的
+
     return (
 
         <div className="-mt-16">
@@ -60,9 +60,10 @@ export default function PokepathPage() {
                 <span className="text-gray-400">/</span>
                 <Link href="/populargames" className="text-red-500 hover:text-red-400 transition-colors duration-200 font-semibold">Popular Games</Link>
                 <span className="text-gray-400">/</span>
-                <span className="text-gray-300 font-medium">PokéPath TD</span>
+                <span className="text-gray-300 font-medium">Sixsided Streets</span>
             </nav>
-            <Iframe src="https://html-classic.itch.zone/html/15902423/PokePath%20TD%20WEB/index.html" />
+            <h1>Sixsided Streets</h1>
+            <Iframe src="https://www.miniplay.com/embed/six-sided-streets" />
 
 
             <div className="bg-black/40 border border-red-900/20 p-6 rounded-lg">
@@ -83,42 +84,38 @@ export default function PokepathPage() {
             </div>
             <section id="intro" className="py-8 md:py-10">
                 <h2 className="text-3xl md:text-4xl font-bold text-red-500 mb-8 tracking-wide text-left">
-                    INTRODUCTION
+                    Introduction
                 </h2>
                 <article className="grid gap-12 items-center">
                     <div className="w-full space-y-6 text-lg leading-relaxed text-gray-300 body-font">
                         <p>
-                            <span className="text-red-500 font-bold glow-red">PokéPath TD</span> is a Pokémon Tower Defense game created by Khydra, blending classic Pokémon progression with strategic, path-based gameplay. Players defend fixed routes by placing Pokémon at key intersections, upgrading core units, and evolving their team over time. The browser version may have instability, so exporting save files is recommended after each session.
+                            <span className="text-red-500 font-bold glow-red">Six-Sided Streets </span> is a strategic city-building and tile-laying game where players create a small town 3 hexes at a time.Developed by Chris Klimowski, the game offers a relaxing yet engaging experience directly in the browser. Each playthrough presents a short, focused challenge centered on placing pieces and building a pleasant little town.
                         </p>
-
                     </div>
                 </article>
             </section>
             <section id="intro" className="py-8 md:py-10">
                 <h2 className="text-3xl md:text-4xl font-bold text-red-500 mb-6 tracking-wide text-left">
-                    Core Gameplay & Mechanics
+                    Core Gameplay
                 </h2>
+                <p>
+                    Each turn, players receive a piece made up of three interconnected hexes.These pieces feature different terrain and structures, including:
+                </p>
+                <br />
                 <ul className="list-disc list-inside space-y-3 text-lg text-gray-300 leading-relaxed body-font">
                     <li>
-                        <span className="text-500 font-bold">Routes & Waves:</span> 9 routes, each with 100 waves, different bosses, and enemy types.
-                    </li>
+                        Brick roads : radiate outward from the town center</li>
                     <li>
-                        <span className="text-500 font-bold">Team Strategy:</span> Players must build the right team based on enemy types.
-                    </li>
+                        Parks : provide value when placed effectively</li>
                     <li>
-                        <span className="text-500 font-bold">Upgrades & Evolution:</span> Use gold to purchase and upgrade Pokémon. Evolving mid-wave increases efficiency.
-                    </li>
+                        Wind turbines : must be placed on higher ground to function</li>
                     <li>
-                        <span className="text-500 font-bold">Auto Mode:</span> Allows farming while AFK.
-                    </li>
-                    <li>
-                        <span className="text-500 font-bold">Exploration:</span> Different paths can be explored freely without losing progress.
-                    </li>
-                    <li>
-                        <span className="text-500 font-bold">Resource Management:</span> Strategic placement and upgrading of Pokémon is essential to survive waves.
-                    </li>
+                        Harborfronts : allow brick roads to connect, increasing points</li>
 
                 </ul>
+                <br />
+                <p>
+                    Players must rotate and place each piece on the map to gain points. The objective is to optimize placement, connect terrain types, and maximize the final score. </p>
             </section>
             <div className="max-w-4xl mx-auto py-8 md:py-10">
                 <h2 className="text-3xl md:text-4xl font-bold text-red-500 mb-8 tracking-wide text-left">

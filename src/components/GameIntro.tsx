@@ -1,17 +1,21 @@
 import Image from "next/image";
+import { useI18n } from "@/lib/i18n-context";
+
 export default function GameIntro() {
+    const { t } = useI18n();
+
     return (
         <section id="intro" className="py-8 md:py-10">
             <h2 className="text-3xl md:text-4xl font-bold text-red-500 mb-8 tracking-wide text-left">
-                INTRODUCTION
+                {t('intro.title')}
             </h2>
             <article className="grid md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6 text-lg leading-relaxed text-gray-300 body-font">
                     <p>
-                        <span className="text-red-500 font-bold glow-red">Chaves Nightmares</span> is an horror fan game inspired by Five Nights at Freddy’s and set in a dark reinterpretation of the classic TV series El Chavo del 8.
+                        <span className="text-red-500 font-bold glow-red">Chaves Nightmares</span> {t('intro.description1')}
                     </p>
                     <p>
-                        The game places players in tense environments where familiar characters and locations are redesigned with a disturbing horror aesthetic. Players must rely on careful observation, sound cues, and limited resources to survive escalating threats. Featuring atmospheric visuals, suspense-driven sound design, and mobile-optimized controls, Chaves Nightmares emphasizes survival horror mechanics and psychological tension.
+                        {t('intro.description2')}
                     </p>
 
                 </div>

@@ -1,5 +1,8 @@
+
 import { Metadata } from 'next';
-import GameCard from '../../components/GameCard';
+import GameCard from '../../../components/GameCard';
+
+
 
 export const metadata: Metadata = {
     title: "Popular Games – Top Trending Mini Games | Chaves Nightmares",
@@ -12,7 +15,8 @@ export const metadata: Metadata = {
 
 export default function PopularGamesPage() {
     const games = [
-        { name: "PokéPath TD", image: "/pokepathTD.jpeg", description: "PokéPath TD is a Pokémon Tower Defense game!", url: "/populargames/pokepath" },
+        { name: "PokéPath TD", image: "/pokepathTD.jpeg", description: "PokéPath TD is a Pokémon Tower Defense game!", url: `/populargames/pokepath` },
+        { name: "SixSided Streets", image: "/sixsidedstreets.png", description: "Make a pleasant little town, 3 hexes at a time.", url: `/populargames/sixsidedstreets` },
 
     ];
 

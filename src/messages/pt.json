@@ -1,0 +1,40 @@
+{
+    "site": {
+        "name": "Chaves Nightmares"
+    },
+    "nav": {
+        "home": "Início",
+        "download": "Baixar",
+        "howToPlay": "Como jogar",
+        "resource": "Recursos",
+        "popularGames": "Jogos Populares",
+        "blog": "Blog"
+    },
+    "home": {
+        "title": "Chaves Nightmares",
+        "description": "Uma experiência de jogo de terror",
+        "supportedPlatforms": "Plataformas Suportadas",
+        "developer": "Desenvolvedor",
+        "genre": "Gênero",
+        "language": "Idioma",
+        "latestVersion": "Última Versão",
+        "updateDate": "Data de Atualização",
+        "downloadNow": "Baixar Agora",
+        "platforms": "Windows, Android",
+        "developerName": "Green Jerry",
+        "genreDesc": "Sobrevivência / Terror / Aventura",
+        "gameLanguage": "Português",
+        "version": "V1.0.4",
+        "year": "2026"
+    },
+    "intro": {
+        "title": "INTRODUÇÃO",
+        "description1": "Chaves Nightmares é um jogo de terror fan-made inspirado em Five Nights at Freddy's e ambientado em uma reinterpretação sombria da clássica série de TV El Chavo del 8.",
+        "description2": "O jogo coloca os jogadores em ambientes tensos onde personagens e locais familiares são redesenhados com uma estética de horror perturbadora. Os jogadores devem depender de observação cuidadosa, pistas sonoras e recursos limitados para sobreviver a ameaças escaladas. Com visuais atmosféricos, design de som impulsionado por suspense e controles otimizados para dispositivos móveis, Chaves Nightmares enfatiza mecânicas de horror de sobrevivência e tensão psicológica."
+    },
+    "story": {
+        "title": "A HISTÓRIA",
+        "description1": "No centro da história está um mistério não resolvido. Os jogadores assumem o papel de um detetive designado para investigar um local temático de Chaves abandonado há muito tempo onde ocorreu um incidente grave anos atrás. Cada noite, a sobrevivência se torna a prioridade enquanto novas pistas revelam gradualmente o que aconteceu dentro do local.",
+        "description2": "Em vez de depender de cenas cinematográficas ou exposição direta, o jogo entrega sua narrativa através de detalhes ambientais, informações fragmentadas e momentos de silêncio. Elementos da história são descobertos através de observação e contexto, criando uma forma de narrativa de queima lenta que reforça a tensão e incerteza ao longo da experiência."
+    }
+}
