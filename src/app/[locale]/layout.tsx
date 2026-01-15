@@ -21,7 +21,7 @@ export async function generateMetadata({
 
     const alternates: Record<string, string> = {};
     locales.forEach((loc) => {
-        alternates[loc] = `/${loc}`;
+        alternates[loc] = `${baseUrl}/${loc}`;
     });
 
     const canonicalUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}`;
@@ -38,7 +38,6 @@ export async function generateMetadata({
             'pc game',
             'how to play'
         ],
-        canonical: canonicalUrl,
         alternates: {
             canonical: canonicalUrl,
             languages: alternates,
