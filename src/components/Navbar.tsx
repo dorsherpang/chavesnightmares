@@ -105,7 +105,7 @@ export default function Navbar() {
                                             {item.label}
                                         </button>
                                         {isResourceOpen && (
-                                            <ul className="absolute top-full left-0 mt-1 bg-[#0a0a0a] rounded shadow-lg py-2 min-w-[180px] border border-red-900/30">
+                                            <ul className="absolute top-full left-0 mt-1 bg-[#0a0a0a] rounded shadow-lg py-2 min-w-[280px] border border-red-900/30">
                                                 {item.subItems.map((subItem, subIndex) => (
                                                     <li key={subIndex}>
                                                         <Link

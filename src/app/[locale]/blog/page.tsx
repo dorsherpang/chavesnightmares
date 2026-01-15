@@ -1,13 +1,3 @@
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-    title: 'Chaves Nightmares Blog - Coming Soon',
-    description: 'Stay tuned for the latest news, updates, and horror game insights from Chaves Nightmares.',
-    alternates: {
-        canonical: 'https://chavesnightmares.org/blog',
-    },
-};
-
 export default function BlogPage() {
     return (
         <main className="relative bg-black text-gray-300">

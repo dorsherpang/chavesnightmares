@@ -11,8 +11,8 @@
         "blog": "Blog"
     },
     "home": {
-        "title": "Chaves Nightmares",
-        "description": "Una experiencia de juego de terror",
+        "title": "Chaves Nightmares – Última Versión Juego de Supervivencia de Horror Gratis",
+        "description": "Juega Chaves Nightmares, la última versión del juego de supervivencia de horror disponible para descarga gratuita en Windows y Android. Explora entornos 2D desafiantes, sobrevive las noches enfrentando enemigos peligrosos y domina las estrategias de cada personaje. Este juego indie combina dificultad progresiva, desafíos nocturnos personalizados y jugabilidad inmersiva. Vive aventuras tensas, aprende técnicas de supervivencia y descubre la historia de cada personaje. Chaves Nightmares es ideal para los fans de juegos de horror de supervivencia que buscan una experiencia gratuita y multiplataforma.",
         "supportedPlatforms": "Plataformas Compatibles",
         "developer": "Desarrollador",
         "genre": "Género",
@@ -22,19 +22,131 @@
         "downloadNow": "Descargar Ahora",
         "platforms": "Windows, Android",
         "developerName": "Green Jerry",
-        "genreDesc": "Supervivencia / Terror / Aventura",
+        "genreDesc": "Supervivencia / Horror / Aventura",
         "gameLanguage": "Portugués",
         "version": "V1.0.4",
         "year": "2026"
     },
     "intro": {
         "title": "INTRODUCCIÓN",
-        "description1": "Chaves Nightmares es un juego de terror fan-made inspirado en Five Nights at Freddy's y ambientado en una reinterpretación oscura de la clásica serie de TV El Chavo del 8.",
-        "description2": "El juego coloca a los jugadores en entornos tensos donde personajes y ubicaciones familiares son rediseñados con una estética de horror perturbadora. Los jugadores deben depender de la observación cuidadosa, pistas de sonido y recursos limitados para sobrevivir a amenazas escaladas. Con visuales atmosféricos, diseño de sonido impulsado por suspense y controles optimizados para móviles, Chaves Nightmares enfatiza mecánicas de horror de supervivencia y tensión psicológica."
+        "description1": "Chaves Nightmares es un juego de fans de horror inspirado en Five Nights at Freddy's y ambientado en una reinterpretación oscura de la serie de televisión clásica El Chavo del 8.",
+        "description2": "El juego coloca a los jugadores en entornos tensos donde los personajes y lugares conocidos son rediseñados con una estética de horror inquietante. Los jugadores deben usar la observación, las señales de sonido y recursos limitados para sobrevivir a amenazas crecientes. Con gráficos atmosféricos, diseño de sonido centrado en la tensión y controles optimizados para móviles, Chaves Nightmares enfatiza la mecánica de horror de supervivencia y la tensión psicológica."
     },
     "story": {
         "title": "LA HISTORIA",
-        "description1": "En el centro de la historia hay un misterio sin resolver. Los jugadores asumen el rol de un detective asignado para investigar un lugar temático de Chaves abandonado hace mucho tiempo donde ocurrió un incidente grave años atrás. Cada noche, la supervivencia se convierte en la prioridad mientras nuevas pistas revelan gradualmente qué sucedió dentro del lugar.",
-        "description2": "En lugar de depender de escenas cinemáticas o exposición directa, el juego entrega su narrativa a través de detalles ambientales, información fragmentada y momentos de silencio. Los elementos de la historia se descubren a través de la observación y el contexto, creando una forma de narración de combustión lenta que refuerza la tensión e incertidumbre a lo largo de la experiencia."
+        "description1": "En el centro de la historia hay un misterio sin resolver. Los jugadores asumen el papel de un detective encargado de investigar un lugar temático de Chaves abandonado donde ocurrió un incidente grave años atrás. Cada noche, la supervivencia es la prioridad mientras nuevas pistas revelan lo que sucedió dentro del lugar.",
+        "description2": "En lugar de depender de cinemáticas o exposición directa, el juego entrega la narrativa a través de detalles ambientales, información fragmentada y momentos de silencio. Los elementos de la historia se descubren mediante la observación y el contexto, creando un tipo de narrativa gradual que refuerza la tensión y la incertidumbre a lo largo de la experiencia."
+    },
+    "faq": {
+        "title": "FAQ",
+        "questions": [
+            {
+                "q": "¿Algún consejo de supervivencia sin spoilers para durar más noches?",
+                "a": "Si quieres sobrevivir más tiempo sin spoilers, ten en cuenta estos principios: no cambies de cámara constantemente por pánico; establece un ritmo fijo y revisa los puntos clave; cuando todo parece 'normal', presta más atención. Cada noche, identifica tus puntos ciegos, señales que requieren acción inmediata y acciones repetidas que pueden dejarte sin escape. En este juego, la victoria depende de la disciplina, no de la rapidez de reflejos."
+            },
+            {
+                "q": "¿El juego tiene diferentes niveles de dificultad?",
+                "a": "Sí. Las noches principales y la Noche Personalizada aumentan la dificultad gradualmente, y la Noche Personalizada permite ajustar manualmente los parámetros del desafío."
+            },
+            {
+                "q": "¿Hay límite de tiempo o cuenta regresiva cada noche?",
+                "a": "Sí. Cada noche tiene una duración fija y tu objetivo es sobrevivir hasta el amanecer."
+            },
+            {
+                "q": "¿Existen huevos de pascua o contenido oculto?",
+                "a": "Sí. El juego incluye objetos ocultos y referencias a otros juegos de horror de fans de Chaves en los menús adicionales."
+            },
+            {
+                "q": "¿Cómo se juega Chaves Nightmares en móvil?",
+                "a": "Si te gustan los juegos de horror de supervivencia centrados en la vigilancia y gestión de recursos, Chaves Nightmares te mantiene atento. La mecánica principal incluye observar diferentes áreas mediante cámaras o puntos de observación, gestionar recursos limitados como energía, tiempo o acciones, y tomar decisiones rápidas y calmadas ante amenazas. En móviles, la tensión es mayor debido a la proximidad de la pantalla. No exploras un espacio abierto, sino que interpretas señales: un cambio sutil, una sombra que no debería estar o un sonido retrasado medio segundo. El juego castiga errores en el momento justo."
+            },
+            {
+                "q": "¿Cómo se diferencia Chaves Nightmares de otros juegos estilo FNaF?",
+                "a": "Las comparaciones con Five Nights at Freddy's son inevitables, pero la experiencia general es distinta en tres aspectos. Primero, combina nostalgia con horror, transformando un mundo amigable en algo inquietante. Segundo, enfatiza el horror psicológico sobre el de acción, basándose en anticipación y repetición. Tercero, tiene una identidad claramente hecha por fans, lo que le da un carácter personal y distintivo."
+            },
+            {
+                "q": "¿El juego soporta español? ¿Qué pasa si mi versión no lo tiene?",
+                "a": "El soporte de idioma español depende de la versión que descargues. Algunas incluyen texto completo en español, otras usan mezcla de idiomas o traducciones comunitarias. Si tu versión no lo soporta completamente, busca versiones de fuentes confiables y evita 'mods' sospechosos. La seguridad del archivo es más importante que el idioma."
+            },
+            {
+                "q": "¿Los requisitos de Android son altos? ¿Funciona en móviles de gama media?",
+                "a": "Como juego de horror 2D, Chaves Nightmares es más ligero que títulos de horror 3D y no exige mucho hardware. La estabilidad depende de la versión y optimización. Para una mejor experiencia, cierra apps de fondo, usa auriculares y juega en un ambiente sin distracciones."
+            },
+            {
+                "q": "¿Es seguro descargar el APK de Chaves Nightmares?",
+                "a": "Los APKs de sitios desconocidos pueden estar modificados. Por seguridad, descarga solo de fuentes confiables, escanea el APK con antivirus, evita versiones irreales como 'recursos ilimitados' o 'sin anuncios', y cancela la instalación si pide permisos poco razonables."
+            }
+        ]
+    },
+    "playtips": {
+        "title": "CONSEJOS DE JUEGO",
+        "subtitle": "Guía de juego para Chaves Nightmares",
+        "title2": "Chaves Nightmares - Guía de Juego",
+        "description1": "es un juego de supervivencia de horror inspirado en la icónica serie El Chavo del Ocho, reimaginada con una atmósfera oscura y perturbadora. Los jugadores asumen el papel de un detective que investiga un lugar cerrado donde los personajes disfrazados (botargas) se volvieron violentos, causando incidentes fatales. Sobrevive cinco noches, descubre el misterio e identifica al culpable.",
+        "description2": "En lugar de depender de cinemáticas o exposiciones directas, el juego entrega la narrativa mediante detalles ambientales, información fragmentada y momentos de silencio. Los elementos de la historia se descubren observando el contexto, creando una narrativa gradual que refuerza la tensión y la incertidumbre.",
+        "objective": "Objetivo",
+        "objective_list": [
+            "Sobrevive cada noche hasta las 8:00 a.m.",
+            "Monitorea los movimientos de los personajes mediante cámaras de seguridad",
+            "Usa herramientas y objetos limitados estratégicamente",
+            "Evita encuentros hostiles respondiendo correctamente al comportamiento de cada personaje",
+            "Soporta la dificultad creciente a medida que aparecen nuevas amenazas"
+        ],
+        "core_gameplay_loop": "Mecánica Principal",
+        "core_gameplay_loop_list": [
+            "Monitorea cámaras para seguir la actividad de los botargas.",
+            "Identifica qué personaje se acerca.",
+            "Aplica la contramedida correcta (objeto, audio o interacción).",
+            "Gestiona recursos limitados, especialmente el uso de la linterna.",
+            "Reacciona rápido ante eventos repentinos y fallos del sistema.",
+            "Sobrevive hasta la mañana."
+        ],
+        "characters_title": "Personajes y Cómo Gestionarlos",
+        "characters_description": "Cada botarga tiene comportamientos únicos y requiere contramedidas específicas. Fallar puede ser fatal.",
+        "chavo_del_ocho": "Chavo del Ocho",
+        "chavo_description": "Antagonista principal. Muy sensible a la luz. Usar demasiado la linterna puede provocar un ataque. <strong>Usa la linterna con moderación y estrategia.</strong>",
+        "kiko": "Kiko",
+        "kiko_description": "Obsesionado con mantener su ropa limpia. Puede ser disuadido usando <strong>talco</strong>. Aplica inmediatamente cuando aparezca.",
+        "dona_florinda": "Doña Florinda",
+        "dona_florinda_description": "Se vuelve agresiva si no se controla. Responde a <strong>señales de audio</strong>. Usa el sistema de audio en el momento adecuado para mantenerla tranquila.",
+        "don_ramon": "Don Ramón",
+        "don_ramon_description": "Debe ser \"atrapado\" llamando a <strong>Don Barriga</strong> desde el panel telefónico. Ignorarlo tiene consecuencias fatales.",
+        "la_chilindrina": "La Chilindrina",
+        "la_chilindrina_description": "Traviesa e impredecible. Puede ser distraída con un <strong>paleta</strong>. Ofrécela antes de que se acerque demasiado.",
+        "profesor_jirafales": "Profesor Jirafales",
+        "profesor_jirafales_description": "Se vuelve peligroso si se altera. Requiere <strong>café</strong> para mantenerse calmado. Ten café listo cuando se presente.",
+        "la_bruja_del_71": "La Bruja del 71",
+        "la_bruja_del_71_description": "Personaje peligroso. Deja su <strong>escoba visible en la cámara</strong> antes de atacar. Ubica y haz clic rápidamente para obligarla a retirarse.",
+        "jaimito": "Jaimito, el Cartero (Solo Noche 5)",
+        "jaimito_description": "Aparece en la última noche. Evítalo presionando y manteniendo su bolsa de correo hasta que se vaya.",
+        "tools_title": "Herramientas y Sistemas",
+        "tools_list": [
+            "<strong>Linterna:</strong> Revela amenazas pero agota la batería y altera a Chavo.",
+            "<strong>Cámaras de Seguridad:</strong> Monitorea todas las áreas sin costo de batería.",
+            "<strong>Sistema de Audio:</strong> Manipula personajes específicos.",
+            "<strong>Talco:</strong> Aleja a Kiko.",
+            "<strong>Paleta:</strong> Distrae a Chilindrina.",
+            "<strong>Panel Telefónico:</strong> Llama a Don Barriga para manejar a Don Ramón.",
+            "<strong>Café:</strong> Calma al Profesor Jirafales."
+        ],
+        "survival_tips_title": "Consejos de Supervivencia Importantes",
+        "survival_tips_list": [
+            "No abuses de la linterna — la batería y la sensibilidad de Chavo hacen que sea riesgoso.",
+            "Prioriza ubicar la escoba de la bruja — ignorarla suele resultar fatal.",
+            "El multitasking es esencial a partir de la Noche 3.",
+            "Los personajes se mueven de forma impredecible — nunca confíes en patrones fijos.",
+            "Fallos del sistema de audio aumentan el desafío — mantén la calma y reacciona rápido.",
+            "Reacciones tardías son fatales — la hesitación suele ser peor que un error."
+        ],
+        "difficulty_progression_title": "Progresión de Dificultad",
+        "difficulty_progression_list": [
+            "Noches 1–2: Aprende mecánicas básicas y respuestas de personajes.",
+            "Noches 3–4: Multitarea con presión y amenazas superpuestas.",
+            "Noche 5: Se requiere dominio completo; todas las mecánicas activas simultáneamente."
+        ],
+        "story_conclusion_title": "Conclusión de la Historia",
+        "story_conclusion_description": "Después de sobrevivir las cinco noches, la investigación revela que <strong>el propio Chavo del Ocho fue responsable</strong> de los incidentes mortales en el lugar.",
+        "genre_experience_title": "Género y Experiencia",
+        "genre_experience_description": "Horror de supervivencia con gestión de recursos, reacciones tipo rompecabezas, tensión psicológica y estructura de cinco noches."
     }
 }

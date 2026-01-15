@@ -1,39 +1,7 @@
 
 
-import { Metadata } from 'next';
 import Link from 'next/link';
 import Iframe from '../../../../components/Iframe'
-
-export const metadata: Metadata = {
-    title: 'PokéPath TD - Play Online Tower Defense Game',
-    description: 'Play PokéPath TD, a fun tower defense game online. Build towers, defend against waves, and enjoy strategic gameplay!',
-    alternates: {
-        canonical: 'https://chavesnightmares.org/populargames/pokepath',
-    },
-    robots: 'index, follow',
-    openGraph: {
-        title: 'PokéPath TD - Online Tower Defense Game',
-        description: 'Play PokéPath TD, a fun tower defense game online. Build towers, defend against waves, and enjoy strategic gameplay!',
-        url: 'https://chavesnightmares.org/populargames/pokepath',
-        siteName: 'Chaves Nightmares',
-        type: 'website',
-        locale: 'en_US',
-        images: [
-            {
-                url: '/gameshotpic1.png', // 假设使用相同的图片，或替换为pokepath的
-                width: 1200,
-                height: 630,
-                alt: 'PokéPath TD Game Banner',
-            },
-        ],
-    },
-    twitter: {
-        card: 'summary_large_image',
-        title: 'PokéPath TD - Online Tower Defense Game',
-        description: 'Play PokéPath TD, a fun tower defense game online. Build towers, defend against waves, and enjoy strategic gameplay!',
-        images: ['/gameshotpic1.png'],
-    },
-};
 
 export default function PokepathPage() {
 

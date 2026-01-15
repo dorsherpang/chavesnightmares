@@ -1,10 +1,14 @@
 // app/layout.tsx
 import './globals.css';
 import { ReactNode } from 'react';
+import { headers } from 'next/headers';
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default async function RootLayout({ children }: { children: ReactNode }) {
+  const headersList = await headers();
+  const locale = headersList.get('x-locale') || 'en';
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <head>
         <title>Chaves Nightmares</title>
       </head>

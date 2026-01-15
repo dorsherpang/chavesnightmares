@@ -1,14 +1,3 @@
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-    title: 'Chaves Nightmares Free Download - Latest Version for Android & Windows',
-    description: 'Download Chaves Nightmares now! Get the latest version for Android and Windows and start your horror adventure today. Free download available!',
-    alternates: {
-        canonical: 'https://chavesnightmares.org/download',
-    },
-};
-
-
 export default function DownloadPage() {
     return (
         <main className="relative bg-black text-gray-300">
@@ -102,9 +91,9 @@ export default function DownloadPage() {
                     </h2>
 
                     <div className="border-fear bg-black/40 p-4 md:p-6 text-sm md:text-base leading-relaxed space-y-2">
-                        <p>• Windows: Extract the .ZIP file, then run the .EXE file to start the game.</p>
-                        <p>• Android: Download the .APK file and install it on your device.</p>
-                        <p>• Important: Do not modify game files. Sufficient storage space is required for proper installation.</p>
+                        <h3>• Windows: Extract the .ZIP file, then run the .EXE file to start the game.</h3>
+                        <h3>• Android: Download the .APK file and install it on your device.</h3>
+                        <h3>• Important: Do not modify game files. Sufficient storage space is required for proper installation.</h3>
                     </div>
                 </section>
             </div>

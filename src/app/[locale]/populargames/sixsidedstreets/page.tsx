@@ -1,39 +1,7 @@
 
 
-import { Metadata } from 'next';
 import Link from 'next/link';
 import Iframe from '../../../../components/Iframe'
-
-export const metadata: Metadata = {
-    title: 'Six-Sided Streets - Strategic City Building Game',
-    description: 'Discover Six-Sided Streets, an engaging strategic city-building and tile-laying game. Build charming towns by placing hex tiles, connect terrains, and score big in this relaxing browser-based experience!',
-    alternates: {
-        canonical: 'https://chavesnightmares.org/populargames/sixsidedstreets',
-    },
-    robots: 'index, follow',
-    openGraph: {
-        title: 'Six-Sided Streets - Online City Building Game',
-        description: 'Discover Six-Sided Streets, an engaging strategic city-building and tile-laying game. Build charming towns by placing hex tiles, connect terrains, and score big in this relaxing browser-based experience!',
-        url: 'https://chavesnightmares.org/populargames/sixsidedstreets',
-        siteName: 'Chaves Nightmares',
-        type: 'website',
-        locale: 'en_US',
-        images: [
-            {
-                url: '/sixsidedstreets.png',
-                width: 1200,
-                height: 630,
-                alt: 'Six-Sided Streets Game Banner',
-            },
-        ],
-    },
-    twitter: {
-        card: 'summary_large_image',
-        title: 'Six-Sided Streets - Online City Building Game',
-        description: 'Discover Six-Sided Streets, an engaging strategic city-building and tile-laying game. Build charming towns by placing hex tiles, connect terrains, and score big in this relaxing browser-based experience!',
-        images: ['/sixsidedstreets.png'],
-    },
-};
 
 export default function SixsidedPage() {
     const faqs = [

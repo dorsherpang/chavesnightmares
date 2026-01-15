@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import { locales } from '@/lib/i18n';
 import { getMessages } from '@/lib/getMessages';
 import { I18nProvider } from '@/lib/i18n-context';
@@ -7,6 +8,68 @@ import BodyClassProvider from '@/components/BodyClassProvider.tsx';
 
 export async function generateStaticParams() {
     return locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({
+    params,
+}: {
+    params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+    const { locale } = await params;
+    const messages = getMessages(locale as Locale);
+    const baseUrl = 'https://chavesnightmares.org';
+
+    const alternates: Record<string, string> = {};
+    locales.forEach((loc) => {
+        alternates[loc] = `/${loc}`;
+    });
+
+    const canonicalUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}`;
+
+    return {
+        title: messages.home.title,
+        description: messages.home.description,
+        keywords: [
+            'horror game',
+            'free download',
+            'Chaves Nightmares',
+            'games online',
+            'mobile game',
+            'pc game',
+            'how to play'
+        ],
+        canonical: canonicalUrl,
+        alternates: {
+            canonical: canonicalUrl,
+            languages: alternates,
+        },
+        openGraph: {
+            title: messages.home.title,
+            description: messages.home.description,
+            type: 'website',
+            url: canonicalUrl,
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: messages.home.title,
+            description: messages.home.description,
+        },
+        other: {
+            'script:ld+json': JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'VideoGame',
+                name: 'Chaves Nightmares',
+                description: messages.home.description,
+                genre: 'Horror',
+                platform: 'Mobile',
+                developer: {
+                    '@type': 'Organization',
+                    name: 'Chaves Nightmares Team',
+                },
+                url: canonicalUrl,
+            }),
+        },
+    };
 }
 
 export default async function LocaleLayout({

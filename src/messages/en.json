@@ -11,8 +11,8 @@
         "blog": "Blog"
     },
     "home": {
-        "title": "Chaves Nightmares",
-        "description": "A horror game experience",
+        "title": "Chaves Nightmares – Latest Version Horror Survival Game Free Download",
+        "description": "Play Chaves Nightmares, the latest version of the horror survival game available for free download on Windows and Android. Explore challenging 2D environments, survive nights facing dangerous enemies, and master unique character strategies. This indie horror game combines progressive difficulty, custom night challenges, and immersive gameplay. Experience suspenseful adventures, learn survival techniques, and discover the story behind each character. Chaves Nightmares is perfect for fans of survival horror games looking for a free, cross-platform horror experience.",
         "supportedPlatforms": "Supported Platforms",
         "developer": "Developer",
         "genre": "Genre",
@@ -77,5 +77,76 @@
                 "a": "APKs from unknown websites carry a real risk of being modified. For safety, only download from trusted sources, scan the APK with mobile antivirus software, avoid unrealistic versions such as 'unlimited resources' or 'no ads,' and abandon the installation immediately if the game requests clearly unreasonable permissions."
             }
         ]
+    },
+    "playtips": {
+        "title": "PLAY TIPS",
+        "subtitle": "Gameplay Guide for Chaves Nightmares",
+        "title2": "Chaves Nightmares - Gameplay Guide",
+        "description1": "is a survival horror game inspired by the iconic TV show El Chavo del Ocho, reimagined with a dark and unsettling atmosphere. Players assume the role of a detective investigating a closed thematic venue where costumed characters (botargas) turned violent, resulting in fatal incidents. Survive five nights, uncover the mystery, and identify the culprit.",
+        "description2": "Rather than relying on cutscenes or direct exposition, the game delivers its narrative through environmental details, fragmented information, and moments of silence. Story elements are discovered through observation and context, creating a slow-burn form of storytelling that reinforces tension and uncertainty throughout the experience.",
+        "objective": "Objective",
+        "objective_list": [
+            "Survive each night until 8:00 a.m.",
+            "Monitor character movements through security cameras",
+            "Use limited tools and items strategically",
+            "Prevent hostile encounters by responding correctly to each character's behavior",
+            "Endure increasing difficulty as new threats appear"
+        ],
+        "core_gameplay_loop": "Core Gameplay Loop",
+        "core_gameplay_loop_list": [
+            "Monitor cameras to track botarga activity.",
+            "Identify which character is approaching.",
+            "Apply the correct countermeasure (item, audio, or interaction).",
+            "Manage limited resources, especially flashlight usage.",
+            "React quickly to sudden events and system malfunctions.",
+            "Survive until morning."
+        ],
+        "characters_title": "Characters and How to Deal With Them",
+        "characters_description": "Each botarga has unique behaviors and requires specific countermeasures. Failure to respond correctly can be fatal.",
+        "chavo_del_ocho": "Chavo del Ocho",
+        "chavo_description": "Main antagonist. Extremely sensitive to light. Overusing the flashlight may trigger an attack. <strong>Use flashlight sparingly and strategically.</strong>",
+        "kiko": "Kiko",
+        "kiko_description": "Obsessed with keeping his clothes clean. Can be deterred using <strong>talcum powder</strong>. Apply powder immediately when he appears.",
+        "dona_florinda": "Doña Florinda",
+        "dona_florinda_description": "Aggressive if not controlled. Responds to specific <strong>audio cues</strong>. Use the audio system at the correct time to keep her calm.",
+        "don_ramon": "Don Ramón",
+        "don_ramon_description": "Must be \"caught\" by calling <strong>Don Barriga</strong> through the phone panel. Ignoring him leads to fatal consequences.",
+        "la_chilindrina": "La Chilindrina",
+        "la_chilindrina_description": "Mischievous and unpredictable. Can be distracted with a <strong>lollipop</strong>. Offer it before she gets too close.",
+        "profesor_jirafales": "Profesor Jirafales",
+        "profesor_jirafales_description": "Becomes dangerous if agitated. Requires <strong>coffee</strong> to remain calm. Keep coffee ready once introduced.",
+        "la_bruja_del_71": "La Bruja del 71",
+        "la_bruja_del_71_description": "Dangerous character. Leaves her <strong>broom visible on camera</strong> before attacking. Quickly locate and click the broom to force her retreat.",
+        "jaimito": "Jaimito, the Mailman (Night 5 Only)",
+        "jaimito_description": "Appears on the final night. Avoid by pressing and holding his mailbag until he leaves.",
+        "tools_title": "Tools and Systems",
+        "tools_list": [
+            "<strong>Flashlight:</strong> Reveals threats but drains battery and angers Chavo.",
+            "<strong>Security Cameras:</strong> Monitor all areas without battery cost.",
+            "<strong>Audio System:</strong> Manipulates specific characters.",
+            "<strong>Talcum Powder:</strong> Repels Kiko.",
+            "<strong>Lollipop:</strong> Distracts Chilindrina.",
+            "<strong>Phone Panel:</strong> Call Don Barriga to handle Don Ramón.",
+            "<strong>Coffee:</strong> Calms Profesor Jirafales."
+        ],
+        "survival_tips_title": "Important Survival Tips",
+        "survival_tips_list": [
+            "Do not overuse the flashlight — battery depletion and Chavo's sensitivity make it risky.",
+            "Prioritize locating the witch's broom — missing it often results in death.",
+            "Multitasking becomes essential from Night 3 onward.",
+            "Characters move unpredictably — never rely on fixed patterns.",
+            "Audio system malfunctions add challenge — remain calm and react quickly.",
+            "Late reactions are fatal — hesitation is often worse than mistakes."
+        ],
+        "difficulty_progression_title": "Difficulty Progression",
+        "difficulty_progression_list": [
+            "Nights 1–2: Learn basic mechanics and character responses.",
+            "Nights 3–4: High-pressure multitasking with overlapping threats.",
+            "Night 5: Full system mastery required; all mechanics active simultaneously."
+        ],
+        "story_conclusion_title": "Story Conclusion",
+        "story_conclusion_description": "After surviving all five nights, the investigation reveals that <strong>Chavo del Ocho himself was responsible</strong> for the deadly incidents that occurred in the venue.",
+        "genre_experience_title": "Genre & Experience",
+        "genre_experience_description": "Survival horror with resource management, puzzle-based reactions, psychological tension, and a five-night structure."
     }
 }

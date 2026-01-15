@@ -15,14 +15,17 @@ export function middleware(request: NextRequest) {
     }
 
     // 2. 检查路径是否已有语言前缀
-    const locales = ['en', 'zh', 'es', 'pt'];
+    const locales = ['en', 'es', 'pt'];
     const pathnameHasLocale = locales.some(
         (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
     );
 
     if (pathnameHasLocale) {
         console.log('Pathname has locale, proceeding:', pathname);
-        return NextResponse.next();
+        const response = NextResponse.next();
+        const locale = pathname.split('/')[1];
+        response.headers.set('x-locale', locale);
+        return response;
     }
 
     // 3. 获取语言偏好并重定向

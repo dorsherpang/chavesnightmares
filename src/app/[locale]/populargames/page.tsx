@@ -1,17 +1,5 @@
 
-import { Metadata } from 'next';
 import GameCard from '../../../components/GameCard';
-
-
-
-export const metadata: Metadata = {
-    title: "Popular Games – Top Trending Mini Games | Chaves Nightmares",
-    description:
-        "Discover popular mini games and trending titles selected by Editors. Explore new, fun, and fast-growing games loved by players right now.",
-    alternates: {
-        canonical: 'https://chavesnightmares.org/populargames',
-    },
-};
 
 export default function PopularGamesPage() {
     const games = [
