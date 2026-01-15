@@ -10,8 +10,9 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
     const pathname = usePathname();
+    const pathWithoutLocale = pathname.replace(/^\/(en|es|pt)(\/|$)/, '/');
 
-    const isPopularSubPage = pathname.startsWith('/populargames/') && pathname !== '/populargames';
+    const isPopularSubPage = pathWithoutLocale.startsWith('/populargames/') && pathname !== '/populargames';
     const shouldShowNav = !isPopularSubPage;
 
     return (
