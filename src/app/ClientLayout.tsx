@@ -10,14 +10,10 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
     const pathname = usePathname();
-    const pathWithoutLocale = pathname.replace(/^\/(en|es|pt)(\/|$)/, '/');
-
-    const isPopularSubPage = pathWithoutLocale.startsWith('/populargames/') && pathname !== '/populargames';
-    const shouldShowNav = !isPopularSubPage;
 
     return (
         <div className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-            {shouldShowNav && <Navbar />}
+            {<Navbar />}
             <main className="pt-20 min-h-screen bg-[#050505] w-[70%] mx-auto">
                 {children}
             </main>

@@ -22,8 +22,8 @@ export async function generateMetadata({
     const canonicalUrl = locale === 'en' ? `${baseUrl}/populargames` : `${baseUrl}/${locale}/populargames`;
 
     return {
-        title: messages.nav.popularGames + ' - ' + messages.site.name,
-        description: 'Discover popular mini games and trending titles. Explore new, fun, and fast-growing games loved by players.',
+        title:'Popular Games – Trending Mini free Games Loved by Players',
+        description: 'Discover popular free mini games and trending titles. Explore new, fun, and fast-growing games that players are loving right now.',
         keywords: [
             'popular games',
             'mini games',

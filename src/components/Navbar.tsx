@@ -1,13 +1,28 @@
-"use client";
-
+'use client';
 import Link from 'next/link';
 import { useState, useRef, useEffect } from 'react';
 import { usePathname, useParams } from 'next/navigation';
 import { useI18n } from '@/lib/i18n-context';
+const LOCALES = ['en', 'es', 'pt'];
 
 export default function Navbar() {
+        const pathname = usePathname();
+
+    // 去掉语言前缀
+    const pathWithoutLocale = pathname.replace(
+        new RegExp(`^/(${LOCALES.join('|')})(/|$)`),
+        '/'
+    );
+
+    // populargames 的子页面（不包括 /populargames 本身）
+    const shouldHide =
+        pathWithoutLocale.startsWith('/populargames/') &&
+        pathWithoutLocale !== '/populargames';
+
+    if (shouldHide) {
+        return null; // ✅ 这里才是真正隐藏
+    }
     const params = useParams();
-    const pathname = usePathname();
     const { t } = useI18n();
 
     // 动态获取当前语言，默认为 en

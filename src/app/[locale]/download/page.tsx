@@ -14,7 +14,11 @@ export default function DownloadPage() {
                 </section>
 
                 {/* ===== Download Cards ===== */}
+                <h2 className="text-xl md:text-2xl font-bold tracking-wide text-white">
+                        Latest Version
+                    </h2>
                 <div className="flex flex-col md:flex-row justify-center gap-8">
+                    
                     {/* Download Card 1 */}
                     <div className="border-fear bg-black/40 hover:bg-fear-gradient transition-all duration-300 max-w-md w-full">
                         <div className="p-4 flex flex-col md:flex-row md:items-center gap-4 md:gap-6 text-sm">

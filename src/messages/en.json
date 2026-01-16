@@ -11,8 +11,10 @@
         "blog": "Blog"
     },
     "home": {
-        "title": "Chaves Nightmares – Latest Version Horror Survival Game Free Download",
-        "description": "The latest version of Chaves Nightmares available for free download on Windows and Android. Providing play tips ,the website also collects youtube playvideo informations.Explore more games online and enjoy your time.",
+        "title": "Chaves Nightmares – Latest Horror Game Free Download",
+        "description": "Download the latest version of Chaves Nightmares for free on Windows and Android. Get gameplay tips, YouTube videos, and discover more horror games online.",
+        "downloadtitle": "Free Download – Latest version for Windows and Android",
+        "downloaddescription": "Free download of the latest version of Chaves Nightmares. Supports Windows and Android with full access to the newest release,download from official website.",
         "supportedPlatforms": "Supported Platforms",
         "developer": "Developer",
         "genre": "Genre",
@@ -81,8 +83,8 @@
     "playtips": {
         "title": "PLAY TIPS",
         "subtitle": "Gameplay Guide for Chaves Nightmares",
-        "title2": "Chaves Nightmares - Gameplay Guide",
-        "description1": "is a survival horror game inspired by the iconic TV show El Chavo del Ocho, reimagined with a dark and unsettling atmosphere. Players assume the role of a detective investigating a closed thematic venue where costumed characters (botargas) turned violent, resulting in fatal incidents. Survive five nights, uncover the mystery, and identify the culprit.",
+        "title2": "Chaves Nightmares – Survival Horror Gameplay Guide",
+        "description1": "Play as a detective in Chaves Nightmares, a survival horror game. Survive five nights, investigate violent incidents, uncover the mystery, and find the culprit.",
         "description2": "Rather than relying on cutscenes or direct exposition, the game delivers its narrative through environmental details, fragmented information, and moments of silence. Story elements are discovered through observation and context, creating a slow-burn form of storytelling that reinforces tension and uncertainty throughout the experience.",
         "objective": "Objective",
         "objective_list": [

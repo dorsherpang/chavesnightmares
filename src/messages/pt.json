@@ -11,8 +11,10 @@
         "blog": "Blog"
     },
     "home": {
-        "title": "Chaves Nightmares – Última Versão Jogo de Sobrevivência e Horror Download Gratuito",
-        "description": "Jogue Chaves Nightmares, a última versão do jogo de sobrevivência e horror disponível para download gratuito no Windows e Android. Este jogo indie combina dificuldade progressiva, desafios noturnos personalizados e jogabilidade imersiva. Experimente aventuras tensas, aprenda técnicas de sobrevivência e descubra a história de cada personagem.",
+        "title": "Chaves Nightmares – Último Jogo de Terror Download Grátis",
+        "description": "Baixe gratuitamente a versão mais recente de Chaves Nightmares para Windows e Android. Tenha acesso completo ao jogo e aproveite a experiência de terror mais recente.",
+       "downloadtitle": "Download Grátis – Última versão para Windows e Android",
+        "downloaddescription": "Baixe gratuitamente a última versão de Chaves Nightmares. Compatível com Windows e Android, com acesso completo ao lançamento mais recente no site oficial.",
         "supportedPlatforms": "Plataformas Suportadas",
         "developer": "Desenvolvedor",
         "genre": "Gênero",
@@ -81,8 +83,8 @@
     "playtips": {
         "title": "DICAS DE JOGO",
         "subtitle": "Guia de Jogabilidade para Chaves Nightmares",
-        "title2": "Chaves Nightmares - Guia de Jogabilidade",
-        "description1": "é um jogo de sobrevivência e horror inspirado na série icônica El Chavo del Ocho, reimaginada com uma atmosfera sombria e perturbadora. Os jogadores assumem o papel de um detetive investigando um local fechado onde personagens fantasiados (botargas) se tornaram violentos, causando incidentes fatais. Sobreviva cinco noites, descubra o mistério e identifique o culpado.",
+        "title2": "Chaves Nightmares – Guia de Jogo de Terror de Sobrevivência",
+        "description1": "Jogue como detetive em Chaves Nightmares, um jogo de terror de sobrevivência. Sobreviva cinco noites, investigue incidentes violentos e descubra o culpado.",
         "description2": "Em vez de depender de cutscenes ou exposições diretas, o jogo entrega a narrativa por meio de detalhes ambientais, informações fragmentadas e momentos de silêncio. Os elementos da história são descobertos observando o contexto, criando uma narrativa gradual que reforça a tensão e a incerteza.",
         "objective": "Objetivo",
         "objective_list": [

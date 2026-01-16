@@ -19,14 +19,14 @@ export async function generateMetadata({
     const canonicalUrl = locale === 'en' ? `${baseUrl}/populargames/pokepath` : `${baseUrl}/${locale}/populargames/pokepath`;
 
     return {
-        title: 'PokéPath TD - Play Online Tower Defense Game',
-        description: 'Play PokéPath TD, a fun tower defense game online. Build towers, defend against waves, and enjoy strategic gameplay!',
+        title: 'PokéPath TD –Free Online Tower Defense Strategy Game',
+        description: 'Play PokéPath TD online, a strategic tower defense game. Build towers, defend against waves, and enjoy fast-paced Pokémon-themed strategy gameplay.',
         keywords: [
-            'PokéPath TD',
-            'tower defense',
-            'Pokémon game',
-            'online game',
-            'strategy game'
+            "PokéPath TD",
+  "tower defense",
+  "strategy game",
+  "online game",
+  "Pokémon game"
         ],
         alternates: {
             canonical: canonicalUrl,

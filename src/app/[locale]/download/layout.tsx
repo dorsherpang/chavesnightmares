@@ -22,8 +22,8 @@ export async function generateMetadata({
     const canonicalUrl = locale === 'en' ? `${baseUrl}/download` : `${baseUrl}/${locale}/download`;
 
     return {
-        title: messages.nav.download + ' - ' + messages.site.name,
-        description: messages.home.description,
+        title: messages.home.downloadtitle,
+        description: messages.home.downloaddescription,
         keywords: [
             'Chaves Nightmares',
             'free download',

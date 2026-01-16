@@ -22,8 +22,8 @@ export async function generateMetadata({
     const canonicalUrl = locale === 'en' ? `${baseUrl}/blog` : `${baseUrl}/${locale}/blog`;
 
     return {
-        title: messages.nav.blog + ' - ' + messages.site.name,
-        description: 'Stay tuned for the latest news, updates, and horror game insights from Chaves Nightmares.',
+        title: 'Chaves Nightmares Blog – News & Horror Game Updates',
+        description: 'Stay updated with the latest Chaves Nightmares news, game updates, and insights into survival horror gameplay.',
         keywords: [
             'Chaves Nightmares',
             'blog',

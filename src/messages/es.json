@@ -11,8 +11,10 @@
         "blog": "Blog"
     },
     "home": {
-        "title": "Chaves Nightmares – Última Versión Juego de Supervivencia de Horror Gratis",
-        "description": "Juega Chaves Nightmares, la última versión del juego de supervivencia de horror disponible para descarga gratuita en Windows y Android. Este juego indie combina dificultad progresiva, desafíos nocturnos personalizados y jugabilidad inmersiva.",
+        "title": "Chaves Nightmares – Último Juego de Terror Descarga Gratis",
+        "description": "Descarga gratis la última versión de Chaves Nightmares en Windows y Android. Accede al juego completo y disfruta de la experiencia de terror más reciente.",
+        "downloadtitle": "Descarga Gratis – Última versión para Windows y Android",
+        "downloaddescription": "Descarga gratis la última versión de Chaves Nightmares. Compatible con Windows y Android, con acceso completo al lanzamiento más reciente desde el sitio oficial.",
         "supportedPlatforms": "Plataformas Compatibles",
         "developer": "Desarrollador",
         "genre": "Género",
@@ -81,8 +83,8 @@
     "playtips": {
         "title": "CONSEJOS DE JUEGO",
         "subtitle": "Guía de juego para Chaves Nightmares",
-        "title2": "Chaves Nightmares - Guía de Juego",
-        "description1": "es un juego de supervivencia de horror inspirado en la icónica serie El Chavo del Ocho, reimaginada con una atmósfera oscura y perturbadora. Los jugadores asumen el papel de un detective que investiga un lugar cerrado donde los personajes disfrazados (botargas) se volvieron violentos, causando incidentes fatales. Sobrevive cinco noches, descubre el misterio e identifica al culpable.",
+        "title2": "Chaves Nightmares – Guía de Juego de Terror de Supervivencia",
+        "description1": "Juega como detective en Chaves Nightmares, un juego de terror de supervivencia. Sobrevive cinco noches, investiga incidentes violentos y descubre al culpable.",
         "description2": "En lugar de depender de cinemáticas o exposiciones directas, el juego entrega la narrativa mediante detalles ambientales, información fragmentada y momentos de silencio. Los elementos de la historia se descubren observando el contexto, creando una narrativa gradual que refuerza la tensión y la incertidumbre.",
         "objective": "Objetivo",
         "objective_list": [
