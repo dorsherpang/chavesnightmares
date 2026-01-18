@@ -14,6 +14,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 1.0,
     });
 
+    // 文章页面列表
+    const articleSlugs = [
+        'chaves-nightmares-1-0-4',
+        'chaves-nightmares-android',
+        'chaves-nightmares-apk',
+        'chaves-nightmares-download',
+        'chaves-nightmares-fnaf',
+        'chaves-nightmares-game',
+        'chaves-nightmares-iphone',
+        'chaves-nightmares-online',
+        'chaves-nightmares-spanish',
+        'chaves-nightmares-virus',
+        'five-nights-at-chaves-nightmares',
+        'five-nights-at-freddys',
+    ];
+
+    // 博客子页面列表
+    const blogSlugs = [
+        'chaves-nightmares-diving-abyss',
+    ];
+
     // 为每个语言和页面生成URL
     locales.forEach((locale) => {
         // 主页
@@ -70,6 +91,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 0.6,
+        });
+
+        // 文章页面
+        articleSlugs.forEach((slug) => {
+            sitemaps.push({
+                url: `${baseUrl}/${locale}/article/${slug}`,
+                lastModified: new Date(),
+                changeFrequency: 'monthly',
+                priority: 0.5,
+            });
+        });
+
+        // 博客子页面
+        blogSlugs.forEach((slug) => {
+            sitemaps.push({
+                url: `${baseUrl}/${locale}/blog/${slug}`,
+                lastModified: new Date(),
+                changeFrequency: 'monthly',
+                priority: 0.5,
+            });
         });
     });
 
