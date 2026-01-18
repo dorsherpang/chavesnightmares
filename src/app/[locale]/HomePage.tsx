@@ -1,6 +1,7 @@
 "use client";
 
 import Image from 'next/image';
+import Link from 'next/link';
 import GameIntro from '@/components/GameIntro';
 import GameStory from '@/components/GameStory';
 import FAQ from '@/components/FAQ';
@@ -94,6 +95,150 @@ export default function HomePage() {
             <GameIntro />
             <GameStory />
             <FAQ />
+
+            {/* longtail section 1*/}
+            <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
+                <Link href={`/${locale}/article/chaves-nightmares-download`}>
+                    <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
+                        {t('longtail.title1')}
+                    </h2>
+                </Link>
+                <p className="text-gray-400">
+                    {t('longtail.content1')}
+                </p>
+            </section>
+
+            {/* longtail section 2*/}
+            <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
+                <Link href={`/${locale}/article/chaves-nightmares-apk`}>
+                    <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
+                        {t('longtail.title2')}
+                    </h2>
+                </Link>
+                <p className="text-gray-400">
+                    {t('longtail.content2')}
+                </p>
+            </section>
+
+            {/* longtail section 3*/}
+            <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
+                <Link href={`/${locale}/article/chaves-nightmares-virus`}>
+                    <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
+                        {t('longtail.title3')}
+                    </h2>
+                </Link>
+                <p className="text-gray-400">
+                    {t('longtail.content3')}
+                </p>
+            </section>
+
+            {/* longtail section 4*/}
+            <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
+                <Link href={`/${locale}/article/chaves-nightmares-iphone`}>
+                    <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
+                        {t('longtail.title4')}
+                    </h2>
+                </Link>
+                <p className="text-gray-400">
+                    {t('longtail.content4')}
+                </p>
+            </section>
+
+            {/* longtail section 5*/}
+            <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
+                <Link href={`/${locale}/article/chaves-nightmares-android`}>
+                    <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
+                        {t('longtail.title5')}
+                    </h2>
+                </Link>
+                <p className="text-gray-400">
+                    {t('longtail.content5')}
+                </p>
+            </section>
+
+            {/* longtail section 6*/}
+            <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
+                <Link href={`/${locale}/article/chaves-nightmares-1-0-4`}>
+                    <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase ">
+                        {t('longtail.title6')}
+                    </h2>
+                </Link>
+                <p className="text-gray-400">
+                    {t('longtail.content6')}
+                </p>
+            </section>
+
+            {/* longtail section 7*/}
+            <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
+                <Link href={`/${locale}/article/chaves-nightmares-online`}>
+                    <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
+                        {t('longtail.title7')}
+                    </h2>
+                </Link>
+                <p className="text-gray-400">
+                    {t('longtail.content7')}
+                </p>
+            </section>
+
+            {/* longtail section 8*/}
+            <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
+                <Link href={`/${locale}/article/chaves-nightmares-spanish`}>
+                    <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
+                        {t('longtail.title8')}
+                    </h2>
+                </Link>
+                <p className="text-gray-400">
+                    {t('longtail.content8')}
+                </p>
+            </section>
+
+            {/* longtail section 9*/}
+            <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
+                <Link href={`/${locale}/article/chaves-nightmares-game`}>
+                    <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
+                        {t('longtail.title9')}
+                    </h2>
+                </Link>
+                <p className="text-gray-400">
+                    {t('longtail.content9')}
+                </p>
+            </section>
+
+            {/* longtail section 10*/}
+            <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
+                <Link href={`/${locale}/article/five-nights-at-freddys`}>
+                    <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
+                        {t('longtail.title10')}
+                    </h2>
+                </Link>
+                <p className="text-gray-400">
+                    {t('longtail.content10')}
+                </p>
+            </section>
+
+            {/* longtail section 11*/}
+            <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
+                <Link href={`/${locale}/article/chaves-nightmares-fnaf`}>
+                    <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
+                        {t('longtail.title11')}
+                    </h2>
+                </Link>
+                <p className="text-gray-400">
+                    {t('longtail.content11')}
+                </p>
+            </section>
+
+            {/* longtail section 12*/}
+            <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
+                <Link href={`/${locale}/article/five-nights-at-chaves-nightmares`}>
+                    <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
+                        {t('longtail.title12')}
+                    </h2>
+                </Link>
+                <p className="text-gray-400">
+                    {t('longtail.content12')}
+                </p>
+            </section>
         </>
     );
 }

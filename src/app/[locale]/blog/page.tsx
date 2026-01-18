@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function BlogPage() {
     return (
         <main className="relative bg-black text-gray-300">
@@ -13,15 +15,19 @@ export default function BlogPage() {
                     </p>
                 </section>
 
-                {/* ===== Coming Soon ===== */}
-                <div className="border-fear bg-black/40 p-8 md:p-12 text-center">
-                    <h2 className="text-2xl md:text-3xl font-bold text-red-500 mb-4">
-                        COMING SOON
-                    </h2>
-                    <p className="text-gray-300 text-lg">
-                        Our blog is under construction. Stay tuned for exciting content about Chaves Nightmares and the world of horror gaming!
-                    </p>
-                </div>
+                {/* ===== Blog Posts ===== */}
+                <section className="space-y-6">
+                    <div className="border border-gray-700 p-6 rounded-lg bg-gray-900 hover:bg-gray-800 transition-colors">
+                        <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                            <img src="/banner.jpg" alt="Chaves Nightmares Blog" className="w-full h-full object-cover object-center" />
+                        </div>
+                        <h3 className="text-xl font-bold text-white">Chaves Nightmares: Diving into the Abyss of Fear</h3>
+                        <p className="text-gray-400 mt-2">A deep dive into the horror elements of Chaves Nightmares, including gameplay mechanics, survival tips, and advanced tactics.</p>
+                        <Link href="/blog/chaves-nightmares-diving-abyss" className="text-red-500 mt-4 inline-block hover:text-red-400 transition-colors">
+                            Read More →
+                        </Link>
+                    </div>
+                </section>
             </div>
         </main>
     );
