@@ -3,7 +3,7 @@ import './globals.css';
 import { ReactNode } from 'react';
 import Script from 'next/script';
 import { headers } from 'next/headers';
-
+import { Metadata } from 'next';
 export default async function RootLayout({ children }: { children: ReactNode }) {
   const headersList = await headers();
   const locale = headersList.get('x-locale') || 'en'; // 获取语言
@@ -12,7 +12,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
     <html lang={locale}>
       <head>
         <title>Chaves Nightmares</title>
-
+        <meta name="msvalidate.01" content="5FA59BA7B7355BA5605A81AD38121E7D" />
         {/* Google Analytics gtag.js */}
         <Script
           strategy="afterInteractive"
