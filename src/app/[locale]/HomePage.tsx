@@ -239,6 +239,14 @@ export default function HomePage() {
                     {t('longtail.content12')}
                 </p>
             </section>
+            <div className="flex justify-center mt-3">
+                <a
+                    href={`/${useI18n().locale}/article`}
+                    className="inline-block bg-red-600 text-white font-semibold uppercase tracking-widest text-sm md:text-base px-6 md:px-10 py-3 md:py-4 rounded-lg shadow-lg whitespace-nowrap hover:bg-red-700 hover:scale-105 transition-transform transition-colors duration-300"
+                >
+                    More Articles
+                </a>
+            </div>
         </>
     );
 }

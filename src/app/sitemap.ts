@@ -77,6 +77,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.7,
         });
 
+        // 文章页面
+        sitemaps.push({
+            url: `${baseUrl}/${locale}/article`,
+            lastModified: new Date(),
+            changeFrequency: 'monthly',
+            priority: 0.6,
+        });
+
         // PokePath游戏页面
         sitemaps.push({
             url: `${baseUrl}/${locale}/populargames/pokepath`,

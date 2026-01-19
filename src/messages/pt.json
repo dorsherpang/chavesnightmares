@@ -387,5 +387,16 @@
         "content3-1": "A versão mais recente de Chaves Nightmares é a v1.0.4, oficialmente lançada pelo desenvolvedor em janeiro de 2026.",
         "content3-2": "Esta versão é compatível com Windows e Android, sem lançamento atual para iOS. O jogo é totalmente offline e não inclui recursos multiplayer online.",
         "content3-3": "Os jogadores podem baixar com segurança o APK ou instalador oficial através do botão abaixo. Após a instalação, o jogo é iniciado diretamente, permitindo que os usuários vivenciem imediatamente a investigação de cada noite."
+    },
+    "download": {
+        "title": "BAIXAR",
+        "version": "Versão atual:",
+        "title2": "Última versão",
+        "buttoninfo": "Baixar no site oficial",
+        "buttondes": "Download oficial fornecido pelo itch.io.",
+        "notetitle": "Notas de download",
+        "win": "Windows: Extraia o arquivo .ZIP e depois execute o arquivo .EXE para iniciar o jogo.",
+        "and": "Android: Baixe o arquivo .APK e instale no seu dispositivo.",
+        "more": "Importante: Não modifique os arquivos do jogo. É necessário espaço de armazenamento suficiente para uma instalação correta."
     }
 }

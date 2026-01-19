@@ -387,5 +387,16 @@
         "content3-1": "The latest version of Chaves Nightmares is v1.0.4, officially released by the developer in January 2026.",
         "content3-2": "This version supports Windows and Android platforms, with no current release for iOS. The game runs entirely offline and does not include any online multiplayer features.",
         "content3-3": "Players can safely download the official APK or installer via the button below. Once installed, the game launches directly, allowing users to experience each night’s suspenseful investigation immediately."
+    },
+    "download": {
+        "title": "DOWNLOAD",
+        "version": "Current Version:",
+        "title2": "Latest Version",
+        "buttoninfo": "Download on Official Website",
+        "buttondes": "Official download provided by itch.io.",
+        "notetitle": "Download Notes",
+        "win": "Windows: Extract the .ZIP file, then run the .EXE file to start the game.",
+        "and": "Android: Download the .APK file and install it on your device.",
+        "more": "Important: Do not modify game files. Sufficient storage space is required for proper installation."
     }
 }

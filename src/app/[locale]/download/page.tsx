@@ -1,24 +1,29 @@
+"use client";
+
+import { useI18n } from "@/lib/i18n-context";
+
 export default function DownloadPage() {
+    const { t } = useI18n();
     return (
         <main className="relative bg-black text-gray-300">
             <div className="max-w-5xl mx-auto px-4 py-20 space-y-8">
                 {/* ===== Page Header ===== */}
                 <section className="text-center space-y-4">
                     <h1 className="text-3xl md:text-4xl font-bold tracking-widest text-white">
-                        DOWNLOAD
+                        {t('download.title')}
                     </h1>
 
                     <p className="text-sm md:text-base text-gray-400">
-                        Current Version: <span className="text-red-500 font-semibold">v1.0.4</span>
+                        {t('download.version')} <span className="text-red-500 font-semibold">V1.0.4</span>
                     </p>
                 </section>
 
                 {/* ===== Download Cards ===== */}
                 <h2 className="text-xl md:text-2xl font-bold tracking-wide text-white">
-                        Latest Version
-                    </h2>
+                    {t('download.title2')}
+                </h2>
                 <div className="flex flex-col md:flex-row justify-center gap-8">
-                    
+
                     {/* Download Card 1 */}
                     <div className="border-fear bg-black/40 hover:bg-fear-gradient transition-all duration-300 max-w-md w-full">
                         <div className="p-4 flex flex-col md:flex-row md:items-center gap-4 md:gap-6 text-sm">
@@ -80,25 +85,25 @@ export default function DownloadPage() {
                         rel="nofollow noopener noreferrer"
                         className="inline-flex items-center justify-center bg-red-600 text-white font-semibold uppercase tracking-widest text-xs md:text-sm px-6 md:px-8 py-3 rounded-md shadow-lg hover:bg-red-700 hover:scale-105 transition-all duration-300 whitespace-nowrap"
                     >
-                        Download on Official Website
+                        {t('download.buttoninfo')}
                     </a>
 
                     <p className="mt-2 text-xs text-gray-400">
-                        Official download provided by itch.io.
+                        {t('download.buttondes')}
                     </p>
                 </div>
 
                 {/* ===== Download Notes ===== */}
                 <section className="space-y-4">
                     <h2 className="text-xl md:text-2xl font-bold tracking-wide text-white">
-                        Download Notes
+                        {t('download.notetitle')}
                     </h2>
 
-                    <div className="border-fear bg-black/40 p-4 md:p-6 text-sm md:text-base leading-relaxed space-y-2">
-                        <h3>• Windows: Extract the .ZIP file, then run the .EXE file to start the game.</h3>
-                        <h3>• Android: Download the .APK file and install it on your device.</h3>
-                        <h3>• Important: Do not modify game files. Sufficient storage space is required for proper installation.</h3>
-                    </div>
+                    <ul className="list-disc list-inside space-y-2 text-gray-300">
+                        <li>{t('download.win')}</li>
+                        <li>{t('download.and')}</li>
+                        <li>{t('download.more')}</li>
+                    </ul>
                 </section>
             </div>
         </main>

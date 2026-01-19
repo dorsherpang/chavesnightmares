@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+const locales = ['en', 'es', 'pt'];
+const defaultLocale = 'en';
+
 export function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
     console.log('Middleware triggered for pathname:', pathname);
@@ -15,28 +18,36 @@ export function middleware(request: NextRequest) {
     }
 
     // 2. 检查路径是否已有语言前缀
-    const locales = ['en', 'es', 'pt'];
     const pathnameHasLocale = locales.some(
         (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
     );
 
     if (pathnameHasLocale) {
         console.log('Pathname has locale, proceeding:', pathname);
+        const pathLocale = pathname.split('/')[1];
+        if (!locales.includes(pathLocale)) {
+            // 无效locale，重定向到默认locale + 剩余路径
+            const remainingPath = pathname.replace(/^\/[^\/]+/, '') || '/';
+            const url = request.nextUrl.clone();
+            url.pathname = `/${defaultLocale}${remainingPath}`;
+            console.log('Redirecting invalid locale path:', pathname, 'to:', url.pathname);
+            return NextResponse.redirect(url, { status: 301 });
+        }
         const response = NextResponse.next();
-        const locale = pathname.split('/')[1];
-        response.headers.set('x-locale', locale);
+        response.headers.set('x-locale', pathLocale);
         return response;
     }
 
-    // 3. 获取语言偏好并重定向
-    const locale = request.cookies.get('NEXT_LOCALE')?.value || 'en';
+    // 3. 获取语言偏好并重定向，使用301永久重定向
+    const cookieLocale = request.cookies.get('NEXT_LOCALE')?.value;
+    const locale = cookieLocale && locales.includes(cookieLocale) ? cookieLocale : defaultLocale;
     console.log('Redirecting to locale:', locale, 'for pathname:', pathname);
 
     // 构建新的 URL
     const url = request.nextUrl.clone();
     url.pathname = `/${locale}${pathname}`;
 
-    return NextResponse.redirect(url);
+    return NextResponse.redirect(url, { status: 301 });
 }
 
 export const config = {
