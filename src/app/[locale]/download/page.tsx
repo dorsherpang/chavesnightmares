@@ -4,6 +4,8 @@ import { useI18n } from "@/lib/i18n-context";
 
 export default function DownloadPage() {
     const { t } = useI18n();
+    const question1 = t('faq.questions')[4];
+    const question2 = t('faq.questions')[6];
     return (
         <main className="relative bg-black text-gray-300">
             <div className="max-w-5xl mx-auto px-4 py-20 space-y-8">
@@ -82,6 +84,7 @@ export default function DownloadPage() {
                     <a
                         href="https://official-greenjerry.itch.io/chaves-nightmares#download"
                         target="_blank"
+                        title="link official web to download software "
                         rel="nofollow noopener noreferrer"
                         className="inline-flex items-center justify-center bg-red-600 text-white font-semibold uppercase tracking-widest text-xs md:text-sm px-6 md:px-8 py-3 rounded-md shadow-lg hover:bg-red-700 hover:scale-105 transition-all duration-300 whitespace-nowrap"
                     >
@@ -105,7 +108,60 @@ export default function DownloadPage() {
                         <li>{t('download.more')}</li>
                     </ul>
                 </section>
+                <section className="max-w-4xl mx-auto py-8 md:py-10">
+                    <h2 className="text-xl md:text-2xl font-bold tracking-wide text-white">
+                        More Contents:
+                    </h2>
+                    <article className="space-y-6">
+                        <div className="border-fear bg-black/40 p-4 md:p-6">
+                            <h3 className="font-bold text-gray-300 text-lg md:text-xl mb-2">
+                                {question1.q}
+                            </h3>
+                            <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+                                {question1.a}
+                            </p>
+                        </div>
+
+                    </article>
+                    <article className="space-y-6">
+                        <div className="border-fear bg-black/40 p-4 md:p-6">
+                            <h3 className="font-bold text-gray-300 text-lg md:text-xl mb-2">
+                                {question2.q}
+                            </h3>
+                            <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+                                {question2.a}
+                            </p>
+                        </div>
+
+                    </article>
+                    <article className="space-y-6">
+                        <div className="border-fear bg-black/40 p-4 md:p-6">
+                            <h3 className="font-bold text-gray-300 text-lg md:text-xl mb-2">
+                                {t('longtail.title3')}
+                            </h3>
+                            <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+
+                                {t('longtail.content3')}
+                            </p>
+                        </div>
+
+                    </article>
+                    <article className="space-y-6">
+                        <div className="border-fear bg-black/40 p-4 md:p-6">
+                            <h3 className="font-bold text-gray-300 text-lg md:text-xl mb-2">
+
+                                {t('longtail.title4')}
+                            </h3>
+                            <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+                                {t('longtail.content4')}
+                            </p>
+                        </div>
+
+                    </article>
+                </section>
             </div>
+
+
         </main>
     );
 }

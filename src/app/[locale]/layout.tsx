@@ -27,7 +27,7 @@ export async function generateMetadata({
     const canonicalUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}`;
 
     return {
-        title: messages.home.title,
+        title: messages.home.seotitle,
         description: messages.home.description,
         keywords: [
             'horror game',
@@ -43,14 +43,14 @@ export async function generateMetadata({
             languages: alternates,
         },
         openGraph: {
-            title: messages.home.title,
+            title: messages.home.seotitle,
             description: messages.home.description,
             type: 'website',
             url: canonicalUrl,
         },
         twitter: {
             card: 'summary_large_image',
-            title: messages.home.title,
+            title: messages.home.seotitle,
             description: messages.home.description,
         },
         other: {
@@ -60,7 +60,7 @@ export async function generateMetadata({
                 name: 'Chaves Nightmares',
                 description: messages.home.description,
                 genre: 'Horror',
-                platform: 'Mobile',
+                platform: ['Android', 'Windows'],
                 developer: {
                     '@type': 'Organization',
                     name: 'Chaves Nightmares Team',

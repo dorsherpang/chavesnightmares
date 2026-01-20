@@ -1,5 +1,5 @@
 import { useI18n } from "@/lib/i18n-context";
-
+import Image from "next/image";
 export default function GameStory() {
     const { t } = useI18n();
 
@@ -19,6 +19,15 @@ export default function GameStory() {
 
                 </div>
             </article>
+            <div className="relative w-full max-w-2xl mx-auto mb-6 aspect-video">
+                <Image
+                    src="/gamestorypic.jpg"
+                    alt="Chaves Nightmares game map "
+                    fill
+                    className="object-cover rounded-md shadow-md"
+                    loading="lazy"
+                />
+            </div>
         </section>
     );
 }

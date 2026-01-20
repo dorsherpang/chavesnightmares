@@ -37,6 +37,28 @@ export async function generateMetadata({
             canonical: canonicalUrl,
             languages: alternates,
         },
+        openGraph: {
+            title: messages.home.downloadtitle,
+            description: messages.home.downloaddescription,
+            url: canonicalUrl,
+            siteName: 'Chaves Nightmares',
+            type: 'website',
+            images: [
+                {
+                    url: '/mobile-banner.png',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Chaves Nightmares'
+                }
+            ],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: messages.home.downloadtitle,
+            description: messages.home.downloaddescription,
+            images: ['/mobile-banner.png']
+        }
+
     };
 }
 

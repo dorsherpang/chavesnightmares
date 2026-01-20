@@ -5,60 +5,63 @@ const defaultLocale = 'en';
 
 export function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
-    console.log('Middleware triggered for pathname:', pathname);
 
-    // 1. 增加：如果路径包含文件后缀（如 .jpg, .png, .ico），直接跳过中间件
-    // 这是处理 public 目录下文件不被重定向的最快方法
+    // ===== 1. 安全兜底：静态资源、API、Next 内部全部放行 =====
     if (
-        pathname.includes('.') ||
-        pathname.startsWith('/api')
+        pathname.startsWith('/api') ||
+        pathname.startsWith('/_next') ||
+        pathname.includes('.')
     ) {
-        console.log('Skipping middleware for static file or API:', pathname);
         return NextResponse.next();
     }
 
-    // 2. 检查路径是否已有语言前缀
+    // ===== 2. 是否已经包含 locale =====
     const pathnameHasLocale = locales.some(
-        (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+        (locale) =>
+            pathname === `/${locale}` ||
+            pathname.startsWith(`/${locale}/`)
     );
 
+    // ===== 3. 如果已有语言前缀，直接放行 =====
     if (pathnameHasLocale) {
-        console.log('Pathname has locale, proceeding:', pathname);
         const pathLocale = pathname.split('/')[1];
-        if (!locales.includes(pathLocale)) {
-            // 无效locale，重定向到默认locale + 剩余路径
-            const remainingPath = pathname.replace(/^\/[^\/]+/, '') || '/';
-            const url = request.nextUrl.clone();
-            url.pathname = `/${defaultLocale}${remainingPath}`;
-            console.log('Redirecting invalid locale path:', pathname, 'to:', url.pathname);
-            return NextResponse.redirect(url, { status: 301 });
-        }
+
         const response = NextResponse.next();
+
+        // 给 layout / server component 使用
         response.headers.set('x-locale', pathLocale);
+
         return response;
     }
 
-    // 3. 获取语言偏好并重定向，使用301永久重定向
+    // ===== 4. 首页 "/" 不做任何强制重定向（SEO 关键）=====
+
+    // ===== 5. cookie 存在时才跳转（用户“主动语言选择”）=====
     const cookieLocale = request.cookies.get('NEXT_LOCALE')?.value;
-    const locale = cookieLocale && locales.includes(cookieLocale) ? cookieLocale : defaultLocale;
-    console.log('Redirecting to locale:', locale, 'for pathname:', pathname);
 
-    // 构建新的 URL
-    const url = request.nextUrl.clone();
-    url.pathname = `/${locale}${pathname}`;
+    if (cookieLocale && locales.includes(cookieLocale)) {
+        const url = request.nextUrl.clone();
+        url.pathname = `/${cookieLocale}${pathname}`;
 
-    return NextResponse.redirect(url, { status: 301 });
+        // ⚠️ 302：语言是偏好，不是永久
+        return NextResponse.redirect(url, { status: 302 });
+    }
+
+    // ===== 6. 没有 cookie / 没有语言信息 → 直接放行 =====
+    // Googlebot、首次访问用户都会走这里
+    const response = NextResponse.next();
+    response.headers.set('x-locale', defaultLocale);
+    return response;
 }
 
 export const config = {
     matcher: [
         /*
-         * 匹配所有请求路径，除了：
-         * 1. /api (API routes)
-         * 2. /_next (Next.js internals)
-         * 3. /_static (metadata files)
-         * 4. 所有的静态资源文件 (扩展名匹配)
+         * 匹配所有页面请求，排除：
+         * - api
+         * - next 内部资源
+         * - 静态文件
          */
-        '/((?!api|_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)'
+        '/((?!api|_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
     ],
 };

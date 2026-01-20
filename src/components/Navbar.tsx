@@ -6,7 +6,7 @@ import { useI18n } from '@/lib/i18n-context';
 const LOCALES = ['en', 'es', 'pt'];
 
 export default function Navbar() {
-        const pathname = usePathname();
+    const pathname = usePathname();
 
     // 去掉语言前缀
     const pathWithoutLocale = pathname.replace(
@@ -20,8 +20,9 @@ export default function Navbar() {
         pathWithoutLocale !== '/populargames';
 
     if (shouldHide) {
-        return null; // ✅ 这里才是真正隐藏
+        return null; // ✅ 隐藏子页面菜单
     }
+
     const params = useParams();
     const { t } = useI18n();
 
@@ -53,13 +54,10 @@ export default function Navbar() {
     const getNewPath = (targetLocale: string) => {
         if (!pathname) return `/${targetLocale}`;
         const segments = pathname.split('/');
-        // 替换 URL 中的语言部分 (例如 /en/blog -> /es/blog)
         segments[1] = targetLocale;
         return segments.join('/') || `/${targetLocale}`;
     };
 
-    // 使用可选链 (?.) 防止 t.nav 为 undefined 时报错
-    // 如果找不到翻译，则显示 fallback 文字（如 "Home"）
     const menuItems = [
         { label: t('nav.home') || 'Home', href: `/${locale}` },
         { label: t('nav.download') || 'Download', href: `/${locale}/download` },
@@ -87,7 +85,7 @@ export default function Navbar() {
             <div className="max-w-6xl mx-auto h-full px-4 md:px-8 flex justify-between items-center relative">
 
                 {/* Logo */}
-                <Link href={`/${locale}`} className="logo cursor-pointer group no-underline">
+                <Link href={`/${locale}`} title={t('site.name') || 'Home'} className="logo cursor-pointer group no-underline">
                     <span className="font-serif text-xl md:text-2xl text-red-900 drop-shadow-[0_0_10px_rgba(139,0,0,0.8)] tracking-widest transition-all duration-300 group-hover:text-red-700">
                         <span className="bg-gradient-to-r from-red-900 via-red-800 to-red-900 bg-clip-text text-transparent group-hover:from-red-700 transition-all duration-300">
                             {t('site.name') || 'Loading...'}
@@ -99,6 +97,7 @@ export default function Navbar() {
                 <button
                     className="md:hidden text-gray-400 hover:text-red-400 transition-colors p-2"
                     onClick={() => { setIsMenuOpen(!isMenuOpen); setIsResourceOpen(false); setIsLangOpen(false); }}
+                    aria-label="Toggle menu"
                 >
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         {isMenuOpen ? (
@@ -116,7 +115,7 @@ export default function Navbar() {
                             <li key={index} ref={item.subItems ? resourceRef : null} className="relative flex items-center">
                                 {item.subItems ? (
                                     <>
-                                        <button onClick={() => { setIsResourceOpen(!isResourceOpen); setIsLangOpen(false); }} className={navItemClass}>
+                                        <button onClick={() => { setIsResourceOpen(!isResourceOpen); setIsLangOpen(false); }} className={navItemClass} title={item.label}>
                                             {item.label}
                                         </button>
                                         {isResourceOpen && (
@@ -127,6 +126,7 @@ export default function Navbar() {
                                                             href={subItem.href}
                                                             onClick={() => setIsResourceOpen(false)}
                                                             className="block px-4 py-2 text-gray-100 hover:text-red-400 hover:bg-red-900/10 transition-colors"
+                                                            title={subItem.label} // ✅ 添加 title
                                                         >
                                                             {subItem.label}
                                                         </Link>
@@ -136,7 +136,7 @@ export default function Navbar() {
                                         )}
                                     </>
                                 ) : (
-                                    <Link href={item.href} className={navItemClass}>
+                                    <Link href={item.href} className={navItemClass} title={item.label}>
                                         {item.label}
                                     </Link>
                                 )}
@@ -149,6 +149,7 @@ export default function Navbar() {
                         <button
                             onClick={() => { setIsLangOpen(!isLangOpen); setIsResourceOpen(false); }}
                             className="flex items-center gap-2 px-3 py-1.5 text-sm font-medium text-gray-300 border border-red-900/30 rounded-full hover:bg-red-900/10 transition-all"
+                            title="Switch language"
                         >
                             <svg className="w-4 h-4 text-red-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
@@ -163,6 +164,7 @@ export default function Navbar() {
                                             href={getNewPath(l.code)}
                                             onClick={() => setIsLangOpen(false)}
                                             className={`block px-4 py-2 text-sm transition-colors ${locale === l.code ? 'text-red-500 bg-red-900/10' : 'text-gray-100 hover:text-red-400'}`}
+                                            title={`Switch language to ${l.label}`}
                                         >
                                             {l.label}
                                         </Link>
@@ -180,7 +182,7 @@ export default function Navbar() {
                             <li key={index}>
                                 {item.subItems ? (
                                     <>
-                                        <button onClick={() => setIsResourceOpen(!isResourceOpen)} className="block w-full text-left text-gray-100 px-4 py-3 rounded hover:bg-red-900/10">
+                                        <button onClick={() => setIsResourceOpen(!isResourceOpen)} className="block w-full text-left text-gray-100 px-4 py-3 rounded hover:bg-red-900/10" title={item.label}>
                                             {item.label}
                                         </button>
                                         {isResourceOpen && (
@@ -191,6 +193,7 @@ export default function Navbar() {
                                                             href={subItem.href}
                                                             onClick={() => setIsMenuOpen(false)}
                                                             className="block text-gray-400 px-4 py-2 hover:text-red-400"
+                                                            title={subItem.label} // ✅ 添加 title
                                                         >
                                                             {subItem.label}
                                                         </Link>
@@ -204,6 +207,7 @@ export default function Navbar() {
                                         href={item.href}
                                         onClick={() => setIsMenuOpen(false)}
                                         className="block text-gray-100 px-4 py-3 rounded hover:bg-red-900/10"
+                                        title={item.label} // ✅ 添加 title
                                     >
                                         {item.label}
                                     </Link>
@@ -221,6 +225,7 @@ export default function Navbar() {
                                         href={getNewPath(l.code)}
                                         onClick={() => setIsMenuOpen(false)}
                                         className={`px-3 py-1 text-sm rounded border transition-colors ${locale === l.code ? 'bg-red-900/20 text-red-500 border-red-900/50' : 'text-gray-400 border-white/10'}`}
+                                        title={`Switch language to ${l.label}`} // ✅ 添加 title
                                     >
                                         {l.label}
                                     </Link>

@@ -12,6 +12,7 @@
     },
     "home": {
         "title": "Chaves Nightmares",
+        "seotitle": "Chaves Nightmares – Juego de Terror Gratis | Windows y Android",
         "description": "Descarga gratis la última versión de Chaves Nightmares en Windows y Android. Accede al juego completo y disfruta de la experiencia de terror más reciente.",
         "downloadtitle": "Descarga Gratis – Última versión para Windows y Android",
         "downloaddescription": "Descarga gratis la última versión de Chaves Nightmares. Compatible con Windows y Android, con acceso completo al lanzamiento más reciente desde el sitio oficial.",
@@ -29,17 +30,32 @@
         "version": "V1.0.4",
         "year": "2026",
         "blogSectionTitle": "Blog",
-        "blogSectionContent": "Aquí, puedes encontrar estrategias de juego, registros de actualización y discusiones de la comunidad."
+        "blogSectionContent": "Aquí, puedes encontrar estrategias de juego, registros de actualización y discusiones de la comunidad.",
+        "versionFeaturesTitle": "Nuevas Funciones"
+    },
+    "feature": {
+        "title1": "Modos de Desafío",
+        "desc1": "El juego presenta cinco noches principales, una noche extra de bonificación y un modo noche personalizada, cada uno con dificultad creciente y combinaciones variadas de enemigos.",
+        "title2": "Amenazas de Personajes Retorcidos",
+        "desc2": "Incluye ocho personajes hostiles inspirados en el elenco original de Chaves, pero reimaginados con un estilo de horror aterrador.",
+        "title3": "Gráficos 2D Dibujados a Mano",
+        "desc3": "Con un estilo de arte 2D dibujado a mano, el juego crea una atmósfera de terror inmersiva sin depender de sustos baratos.",
+        "title4": "Narrativa Ambiental",
+        "desc4": "Los jugadores van descubriendo poco a poco el misterio, creando una narrativa de desarrollo lento que intensifica la tensión durante toda la experiencia.",
+        "title5": "Menú de Extras Completo",
+        "desc5": "La última versión incluye un completo menú de Extras, con galería de personajes, compilaciones de sustos, trivia del juego, otras obras de fans y agradecimientos de los desarrolladores, aumentando la rejugabilidad y la participación del jugador.",
+        "title6": "Optimización para Móviles",
+        "desc6": "Optimizado para dispositivos Android, el juego asegura carga fluida de recursos, controles táctiles responsivos y amplia compatibilidad. Su diseño ligero permite jugar offline mientras ofrece una experiencia de horror intensa en cualquier lugar."
     },
     "intro": {
-        "title": "INTRODUCCIÓN",
-        "description1": "Chaves Nightmares es un juego de fans de horror inspirado en Five Nights at Freddy's y ambientado en una reinterpretación oscura de la serie de televisión clásica El Chavo del 8.",
-        "description2": "El juego coloca a los jugadores en entornos tensos donde los personajes y lugares conocidos son rediseñados con una estética de horror inquietante. Los jugadores deben usar la observación, las señales de sonido y recursos limitados para sobrevivir a amenazas crecientes. Con gráficos atmosféricos, diseño de sonido centrado en la tensión y controles optimizados para móviles, Chaves Nightmares enfatiza la mecánica de horror de supervivencia y la tensión psicológica."
+        "title": "Introducción",
+        "description1": "es un juego de terror hecho por fans, inspirado en Five Nights at Freddy's, que reinventa la clásica serie de televisión El Chavo del 8 con un giro oscuro y perturbador.",
+        "description2": "En este juego, los personajes y escenarios familiares se transforman en entornos tensos y escalofriantes que mantienen a los jugadores siempre al borde del asiento. Sobrevivir requiere una observación aguda, atención a las pistas sonoras y gestión estratégica de recursos limitados a medida que las amenazas aumentan. Con sus gráficos atmosféricos, un diseño sonoro que genera suspenso y controles optimizados para móviles, Chaves Nightmares ofrece una experiencia de terror de supervivencia convincente que combina tensión psicológica con sustos clásicos."
     },
     "story": {
-        "title": "LA HISTORIA",
-        "description1": "En el centro de la historia hay un misterio sin resolver. Los jugadores asumen el papel de un detective encargado de investigar un lugar temático de Chaves abandonado donde ocurrió un incidente grave años atrás. Cada noche, la supervivencia es la prioridad mientras nuevas pistas revelan lo que sucedió dentro del lugar.",
-        "description2": "En lugar de depender de cinemáticas o exposición directa, el juego entrega la narrativa a través de detalles ambientales, información fragmentada y momentos de silencio. Los elementos de la historia se descubren mediante la observación y el contexto, creando un tipo de narrativa gradual que refuerza la tensión y la incertidumbre a lo largo de la experiencia."
+        "title": "La Historia del Juego",
+        "description1": "En el corazón de Chaves Nightmares se encuentra un misterio inquietante y sin resolver. Los jugadores se ponen en la piel de un detective encargado de investigar un lugar temático de Chaves abandonado desde hace años, escenario de un trágico incidente ocurrido en el pasado. Cada noche, la supervivencia se convierte en la prioridad inmediata, mientras que nuevas pistas van revelando poco a poco la oscura historia que se esconde en el lugar.",
+        "description2": "El juego prescinde de cinemáticas tradicionales o exposiciones explícitas, narrando la historia a través de detalles del entorno, sutiles indicios y tensos momentos de silencio. Los jugadores descubren la narrativa observando su alrededor, reuniendo información fragmentada e interpretando el contexto. Este enfoque de storytelling pausado incrementa el suspense, manteniendo una sensación constante de tensión e incertidumbre a lo largo de toda la experiencia."
     },
     "faq": {
         "title": "FAQ",
@@ -69,16 +85,8 @@
                 "a": "Las comparaciones con Five Nights at Freddy's son inevitables, pero la experiencia general es distinta en tres aspectos. Primero, combina nostalgia con horror, transformando un mundo amigable en algo inquietante. Segundo, enfatiza el horror psicológico sobre el de acción, basándose en anticipación y repetición. Tercero, tiene una identidad claramente hecha por fans, lo que le da un carácter personal y distintivo."
             },
             {
-                "q": "¿El juego soporta español? ¿Qué pasa si mi versión no lo tiene?",
-                "a": "El soporte de idioma español depende de la versión que descargues. Algunas incluyen texto completo en español, otras usan mezcla de idiomas o traducciones comunitarias. Si tu versión no lo soporta completamente, busca versiones de fuentes confiables y evita 'mods' sospechosos. La seguridad del archivo es más importante que el idioma."
-            },
-            {
                 "q": "¿Los requisitos de Android son altos? ¿Funciona en móviles de gama media?",
                 "a": "Como juego de horror 2D, Chaves Nightmares es más ligero que títulos de horror 3D y no exige mucho hardware. La estabilidad depende de la versión y optimización. Para una mejor experiencia, cierra apps de fondo, usa auriculares y juega en un ambiente sin distracciones."
-            },
-            {
-                "q": "¿Es seguro descargar el APK de Chaves Nightmares?",
-                "a": "Los APKs de sitios desconocidos pueden estar modificados. Por seguridad, descarga solo de fuentes confiables, escanea el APK con antivirus, evita versiones irreales como 'recursos ilimitados' o 'sin anuncios', y cancela la instalación si pide permisos poco razonables."
             }
         ]
     },
@@ -159,7 +167,7 @@
         "title2": "Chaves Nightmares APK",
         "content2": "Descarga el último Chaves Nightmares APK para dispositivos Android. Instálalo de forma segura y disfruta de la experiencia completa de terror directamente en tu teléfono o tablet.",
         "title3": "¿Chaves Nightmares Tiene Virus?",
-        "content3": "Muchos jugadores preguntan si Chaves Nightmares tiene virus. El APK es seguro para descargar y ha sido probado en dispositivos Android. Descarga siempre desde fuentes confiables para garantizar una experiencia segura.",
+        "content3": "Los APKs de sitios desconocidos pueden estar modificados. Por seguridad, descarga solo de fuentes confiables, escanea el APK con antivirus, evita versiones irreales como 'recursos ilimitados' o 'sin anuncios', y cancela la instalación si pide permisos poco razonables.",
         "title4": "Chaves Nightmares en iPhone",
         "content4": "Chaves Nightmares aún no está disponible para iPhone. Sin embargo, puedes jugar la versión de Android en tu dispositivo usando un emulador de Android para iOS. Asegúrate de seguir las instrucciones cuidadosamente para una experiencia segura.",
         "title5": "Chaves Nightmares para Android",
@@ -168,8 +176,8 @@
         "content6": "Chaves Nightmares 1.0.4 es la última versión del juego. Puedes descargarlo de forma segura usando el enlace que se proporciona a continuación y disfrutar de todas las nuevas funciones y mejoras.",
         "title7": "Chaves Nightmares Online",
         "content7": "Actualmente, Chaves Nightmares no está disponible para jugar online. Solo puedes disfrutar del juego descargándolo en tu dispositivo. Asegúrate de seguir las instrucciones de instalación para una experiencia segura.",
-        "title8": "Chaves Nightmares en Español",
-        "content8": "Nuestro sitio web ofrece Chaves Nightmares en español. Puedes cambiar el idioma fácilmente usando el selector de idioma en la parte superior de la página para disfrutar del contenido del juego en tu idioma preferido.",
+        "title8": "¿El juego soporta español?",
+        "content8": "El soporte de idioma español depende de la versión que descargues. Algunas incluyen texto completo en español, otras usan mezcla de idiomas o traducciones comunitarias. Si tu versión no lo soporta completamente, busca versiones de fuentes confiables y evita 'mods' sospechosos. La seguridad del archivo es más importante que el idioma.",
         "title9": "Chaves Nightmares Juego ",
         "content9": "Chaves Nightmares es un emocionante juego de terror inspirado en los clásicos juegos de supervivencia. Los jugadores deben sobrevivir noches intensas, descubrir misterios y enfrentar desafíos aterradores en un entorno lleno de suspenso.",
         "title10": "Five Nights at Freddy's",

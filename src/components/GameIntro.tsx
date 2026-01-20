@@ -4,33 +4,31 @@ import { useI18n } from "@/lib/i18n-context";
 export default function GameIntro() {
     const { t } = useI18n();
 
+
     return (
-        <section id="intro" className="py-8 md:py-10">
-            <h2 className="text-3xl md:text-4xl font-bold text-red-500 mb-8 tracking-wide text-left">
+        <section id="intro" className="py-8 md:py-10 max-w-5xl mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-red-500 mb-6 tracking-wide text-center md:text-left">
                 {t('intro.title')}
             </h2>
-            <article className="grid md:grid-cols-2 gap-12 items-center">
-                <div className="space-y-6 text-lg leading-relaxed text-gray-300 body-font">
-                    <p>
-                        <span className="text-red-500 font-bold glow-red">Chaves Nightmares</span> {t('intro.description1')}
-                    </p>
-                    <p>
-                        {t('intro.description2')}
-                    </p>
+            <div className="relative w-full max-w-2xl mx-auto mb-6 aspect-video">
+                <Image
+                    src="/homepageintroductionpic.jpg"
+                    alt="Chaves Nightmares Game official Preview"
+                    fill
+                    className="object-cover rounded-md shadow-md"
+                    loading="lazy"
+                />
+            </div>
+            {/* 图片在上 */}
 
-                </div>
-                <div className="relative aspect-video border-2 border-red-900/50 bg-black/50 overflow-hidden">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                        <Image
-                            src="/gameshotpic1.png"   // 你的图片路径
-                            alt="Game Preview"
-                            width={1366}          // 固定宽度
-                            height={768}         // 固定高度
-                            className="object-cover rounded-md"
-                            loading="lazy"
-                        />
-                    </div>
-                </div>
+            {/* 文字在下 */}
+            <article className="space-y-4 text-lg leading-relaxed text-gray-300 body-font text-center md:text-left">
+                <p>
+                    <span className="text-red-500 font-bold glow-red">Chaves Nightmares</span> {t('intro.description1')}
+                </p>
+                <p>
+                    {t('intro.description2')}
+                </p>
             </article>
         </section>
     );

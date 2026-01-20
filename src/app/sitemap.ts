@@ -6,15 +6,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const sitemaps: MetadataRoute.Sitemap = [];
 
-    // 添加根URL（重定向到默认locale）
-    sitemaps.push({
-        url: baseUrl,
-        lastModified: new Date(),
-        changeFrequency: 'monthly',
-        priority: 1.0,
-    });
+    // 固定时间，避免每次部署全部被判定为更新
+    const lastModified = new Date('2026-01-01');
 
-    // 文章页面列表
     const articleSlugs = [
         'chaves-nightmares-1-0-4',
         'chaves-nightmares-android',
@@ -30,94 +24,87 @@ export default function sitemap(): MetadataRoute.Sitemap {
         'five-nights-at-freddys',
     ];
 
-    // 博客子页面列表
     const blogSlugs = [
         'chaves-nightmares-diving-abyss',
     ];
 
-    // 为每个语言和页面生成URL
     locales.forEach((locale) => {
-        // 主页
+
+        // 首页
         sitemaps.push({
             url: `${baseUrl}/${locale}`,
-            lastModified: new Date(),
+            lastModified,
             changeFrequency: 'monthly',
             priority: 1.0,
         });
 
-        // 下载页面
+        // 一级功能页
         sitemaps.push({
             url: `${baseUrl}/${locale}/download`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        });
-
-        // 博客页面
-        sitemaps.push({
-            url: `${baseUrl}/${locale}/blog`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.6,
-        });
-
-        // 游戏提示页面
-        sitemaps.push({
-            url: `${baseUrl}/${locale}/playtips`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.6,
-        });
-
-        // 热门游戏页面
-        sitemaps.push({
-            url: `${baseUrl}/${locale}/populargames`,
-            lastModified: new Date(),
+            lastModified,
             changeFrequency: 'monthly',
             priority: 0.7,
         });
 
-        // 文章页面
+        sitemaps.push({
+            url: `${baseUrl}/${locale}/populargames`,
+            lastModified,
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        });
+
+        sitemaps.push({
+            url: `${baseUrl}/${locale}/blog`,
+            lastModified,
+            changeFrequency: 'monthly',
+            priority: 0.6,
+        });
+
         sitemaps.push({
             url: `${baseUrl}/${locale}/article`,
-            lastModified: new Date(),
+            lastModified,
             changeFrequency: 'monthly',
             priority: 0.6,
         });
 
-        // PokePath游戏页面
+        sitemaps.push({
+            url: `${baseUrl}/${locale}/playtips`,
+            lastModified,
+            changeFrequency: 'monthly',
+            priority: 0.5,
+        });
+
+        // 二级页面
         sitemaps.push({
             url: `${baseUrl}/${locale}/populargames/pokepath`,
-            lastModified: new Date(),
+            lastModified,
             changeFrequency: 'monthly',
-            priority: 0.6,
+            priority: 0.5,
         });
 
-        // Six Sided Streets游戏页面
         sitemaps.push({
             url: `${baseUrl}/${locale}/populargames/sixsidedstreets`,
-            lastModified: new Date(),
+            lastModified,
             changeFrequency: 'monthly',
-            priority: 0.6,
+            priority: 0.5,
         });
 
-        // 文章页面
+        // 文章详情页
         articleSlugs.forEach((slug) => {
             sitemaps.push({
                 url: `${baseUrl}/${locale}/article/${slug}`,
-                lastModified: new Date(),
+                lastModified,
                 changeFrequency: 'monthly',
-                priority: 0.5,
+                priority: 0.4,
             });
         });
 
-        // 博客子页面
         blogSlugs.forEach((slug) => {
             sitemaps.push({
                 url: `${baseUrl}/${locale}/blog/${slug}`,
-                lastModified: new Date(),
+                lastModified,
                 changeFrequency: 'monthly',
-                priority: 0.5,
+                priority: 0.4,
             });
         });
     });
