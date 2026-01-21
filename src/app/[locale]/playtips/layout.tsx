@@ -22,8 +22,10 @@ export async function generateMetadata({
     const canonicalUrl = locale === 'en' ? `${baseUrl}/playtips` : `${baseUrl}/${locale}/playtips`;
 
     return {
-        title: messages.playtips.title2,
-        description: messages.playtips.description1,
+        title: locale === 'en'
+            ? 'Chaves Nightmares Gameplay Tips – How to Play & Guide'
+            : messages.playtips.seotitle,
+        description: messages.playtips.description,
         keywords: [
             'Chaves Nightmares',
             'gameplay guide',

@@ -91,77 +91,159 @@
         ]
     },
     "playtips": {
-        "title": "PLAY TIPS",
-        "subtitle": "Gameplay Guide for Chaves Nightmares",
-        "title2": "Chaves Nightmares – Survival Horror Gameplay Guide",
-        "description1": "Play as a detective in Chaves Nightmares, a survival horror game. Survive five nights, investigate violent incidents, uncover the mystery, and find the culprit.",
-        "description2": "Rather than relying on cutscenes or direct exposition, the game delivers its narrative through environmental details, fragmented information, and moments of silence. Story elements are discovered through observation and context, creating a slow-burn form of storytelling that reinforces tension and uncertainty throughout the experience.",
-        "objective": "Objective",
-        "objective_list": [
-            "Survive each night until 8:00 a.m.",
-            "Monitor character movements through security cameras",
-            "Use limited tools and items strategically",
-            "Prevent hostile encounters by responding correctly to each character's behavior",
-            "Endure increasing difficulty as new threats appear"
-        ],
-        "core_gameplay_loop": "Core Gameplay Loop",
-        "core_gameplay_loop_list": [
-            "Monitor cameras to track botarga activity.",
-            "Identify which character is approaching.",
-            "Apply the correct countermeasure (item, audio, or interaction).",
-            "Manage limited resources, especially flashlight usage.",
-            "React quickly to sudden events and system malfunctions.",
-            "Survive until morning."
-        ],
-        "characters_title": "Characters and How to Deal With Them",
-        "characters_description": "Each botarga has unique behaviors and requires specific countermeasures. Failure to respond correctly can be fatal.",
-        "chavo_del_ocho": "Chavo del Ocho",
-        "chavo_description": "Main antagonist. Extremely sensitive to light. Overusing the flashlight may trigger an attack. <strong>Use flashlight sparingly and strategically.</strong>",
-        "kiko": "Kiko",
-        "kiko_description": "Obsessed with keeping his clothes clean. Can be deterred using <strong>talcum powder</strong>. Apply powder immediately when he appears.",
-        "dona_florinda": "Doña Florinda",
-        "dona_florinda_description": "Aggressive if not controlled. Responds to specific <strong>audio cues</strong>. Use the audio system at the correct time to keep her calm.",
-        "don_ramon": "Don Ramón",
-        "don_ramon_description": "Must be \"caught\" by calling <strong>Don Barriga</strong> through the phone panel. Ignoring him leads to fatal consequences.",
-        "la_chilindrina": "La Chilindrina",
-        "la_chilindrina_description": "Mischievous and unpredictable. Can be distracted with a <strong>lollipop</strong>. Offer it before she gets too close.",
-        "profesor_jirafales": "Profesor Jirafales",
-        "profesor_jirafales_description": "Becomes dangerous if agitated. Requires <strong>coffee</strong> to remain calm. Keep coffee ready once introduced.",
-        "la_bruja_del_71": "La Bruja del 71",
-        "la_bruja_del_71_description": "Dangerous character. Leaves her <strong>broom visible on camera</strong> before attacking. Quickly locate and click the broom to force her retreat.",
-        "jaimito": "Jaimito, the Mailman (Night 5 Only)",
-        "jaimito_description": "Appears on the final night. Avoid by pressing and holding his mailbag until he leaves.",
-        "tools_title": "Tools and Systems",
-        "tools_list": [
-            "<strong>Flashlight:</strong> Reveals threats but drains battery and angers Chavo.",
-            "<strong>Security Cameras:</strong> Monitor all areas without battery cost.",
-            "<strong>Audio System:</strong> Manipulates specific characters.",
-            "<strong>Talcum Powder:</strong> Repels Kiko.",
-            "<strong>Lollipop:</strong> Distracts Chilindrina.",
-            "<strong>Phone Panel:</strong> Call Don Barriga to handle Don Ramón.",
-            "<strong>Coffee:</strong> Calms Profesor Jirafales."
-        ],
-        "survival_tips_title": "Important Survival Tips",
-        "survival_tips_list": [
-            "Do not overuse the flashlight — battery depletion and Chavo's sensitivity make it risky.",
-            "Prioritize locating the witch's broom — missing it often results in death.",
-            "Multitasking becomes essential from Night 3 onward.",
-            "Characters move unpredictably — never rely on fixed patterns.",
-            "Audio system malfunctions add challenge — remain calm and react quickly.",
-            "Late reactions are fatal — hesitation is often worse than mistakes."
-        ],
-        "difficulty_progression_title": "Difficulty Progression",
-        "difficulty_progression_list": [
-            "Nights 1–2: Learn basic mechanics and character responses.",
-            "Nights 3–4: High-pressure multitasking with overlapping threats.",
-            "Night 5: Full system mastery required; all mechanics active simultaneously."
-        ],
-        "story_conclusion_title": "Story Conclusion",
-        "story_conclusion_description": "After surviving all five nights, the investigation reveals that <strong>Chavo del Ocho himself was responsible</strong> for the deadly incidents that occurred in the venue.",
-        "genre_experience_title": "Genre & Experience",
-        "genre_experience_description": "Survival horror with resource management, puzzle-based reactions, psychological tension, and a five-night structure."
+        "title": "Gameplay Guide",
+        "seotitle": "Chaves Nightmares Full Gameplay Guide & Survival Tips",
+        "description": "Master Chaves Nightmares with our complete guide. Learn enemy patterns, tool usage, night strategies, and survive all five nights safely.",
+        "objective": {
+            "title": "Objective",
+            "description": "The primary goal of Chaves Nightmares is to survive each night until morning by correctly identifying and responding to threats. Survival depends on observation, timely action, and proper use of tools.",
+            "li1": "Survive until morning – Nights end automatically at 8:00 a.m.; all actions focus on lasting until dawn.",
+            "li2": "Track enemy movements – Cameras and audio cues provide early warnings.",
+            "li3": "Identify active enemies – Each character behaves differently and requires specific responses.",
+            "li4": "Use tools correctly – Flashlight, items, audio, and phone panel each serve a defined purpose.",
+            "li5": "Handle increasing difficulty – Nights 3–5 introduce multiple simultaneous threats."
+        },
+        "core_loop": {
+            "title": "Core Gameplay Loop",
+            "li1": "Monitor cameras – Regularly check all areas to track movement and detect early visual cues.",
+            "li2": "Identify active enemies – Determine exactly which character is approaching before acting.",
+            "li3": "Apply the correct countermeasure – Use the appropriate item, system, or interaction.",
+            "li4": "Manage resources – Conserve flashlight battery and keep items prepared for critical moments.",
+            "li5": "Repeat until morning – The loop persists, with threats intensifying each night."
+        },
+        "characters": {
+            "title": "Characters & Countermeasures",
+            "table_header1": "Character",
+            "table_header2": "Behavior",
+            "table_header3": "How to Handle",
+            "row1": {
+                "name": "Chavo del Ocho",
+                "behavior": "Sensitive to light; main recurring threat",
+                "handle": "Use flashlight sparingly; prolonged or panic flashing increases aggression."
+            },
+            "row2": {
+                "name": "Kiko",
+                "behavior": "Fast, sudden appearance",
+                "handle": "Apply talcum powder immediately; delay often results in unavoidable attack."
+            },
+            "row3": {
+                "name": "Doña Florinda",
+                "behavior": "Becomes hostile if ignored; reacts to audio",
+                "handle": "Trigger audio system at correct timing; mistimed activation is ineffective."
+            },
+            "row4": {
+                "name": "Don Ramón",
+                "behavior": "Approaches steadily; ignores cameras/light",
+                "handle": "Use phone panel to call Don Barriga immediately; delayed response causes instant death."
+            },
+            "row5": {
+                "name": "La Chilindrina",
+                "behavior": "Quiet, unpredictable movement",
+                "handle": "Give lollipop before she reaches close range; late usage fails."
+            },
+            "row6": {
+                "name": "Profesor Jirafales",
+                "behavior": "Aggressive when stressed",
+                "handle": "Keep coffee ready; use immediately once he is active."
+            },
+            "row7": {
+                "name": "La Bruja del 71",
+                "behavior": "Leaves broom visible briefly before attack",
+                "handle": "Click broom instantly to force retreat; missing cue is fatal."
+            },
+            "row8": {
+                "name": "Jaimito (Night 5 Only)",
+                "behavior": "Appears only on final night with unique mechanic",
+                "handle": "Press and hold mailbag until he leaves; releasing early triggers attack."
+            }
+        },
+        "enemy_patterns": {
+            "title": "8 Enemy Behavior Patterns (Detailed)",
+            "li1": "Direct approach – Enemies move straight to the office; counter with the assigned item immediately (Don Ramón, Kiko).",
+            "li2": "Stealth approach – Enemies appear slowly or quietly; monitor cameras to detect early movement (La Chilindrina).",
+            "li3": "Visual cue triggered – Enemy attack is indicated by a brief object or light signal (La Bruja del 71 broom).",
+            "li4": "Audio-triggered response – Requires using sound or audio system at precise timing (Doña Florinda).",
+            "li5": "Light-sensitive aggression – Flashlight overuse increases enemy speed or aggression (Chavo del Ocho).",
+            "li6": "Continuous presence threat – Enemy stays active in a specific zone and reacts if ignored (Profesor Jirafales).",
+            "li7": "Sudden activation – Appears unexpectedly with minimal warning; quick item response required (Kiko).",
+            "li8": "Special night mechanic – Appears only in a specific night with unique interaction (Jaimito mailbag on Night 5)."
+        },
+        "tools": {
+            "title": "Tools & Systems (Detailed)",
+            "li1": "Flashlight – Reveals enemies but drains battery and increases Chavo’s aggression. Use briefly for identification; avoid panic flashing.",
+            "li2": "Security Cameras – Track all areas and detect short visual cues; develop a consistent loop for scanning.",
+            "li3": "Audio System – Calms certain characters (Doña Florinda). Activate only at the correct moment; may malfunction on later nights.",
+            "li4": "Talcum Powder – Repels Kiko; use immediately upon appearance; cannot be reused until next night.",
+            "li5": "Lollipop – Distracts La Chilindrina; give before she approaches too closely.",
+            "li6": "Phone Panel – Calls Don Barriga to stop Don Ramón; must be used immediately.",
+            "li7": "Coffee – Calms Profesor Jirafales; prepare in advance and apply when active."
+        },
+        "controls": {
+            "title": "Control & Interaction Methods",
+            "pc_cameras": "Cameras: Click or hover to switch views.",
+            "pc_flashlight": "Flashlight: Left-click or assigned key.",
+            "pc_items": "Items: Drag-and-drop to target character or click hotkeys.",
+            "pc_audio": "Audio system: Click panel buttons at correct timing.",
+            "pc_phone": "Phone panel: Click buttons to call Don Barriga.",
+            "mobile_cameras": "Cameras: Swipe or tap thumbnails.",
+            "mobile_flashlight": "Flashlight: Tap flashlight icon briefly.",
+            "mobile_items": "Items: Drag or tap to apply.",
+            "mobile_audio": "Audio system: Tap to activate at correct moment.",
+            "mobile_phone": "Phone panel: Tap to call Don Barriga.",
+            "mobile_mailbag": "Mailbag (Night 5): Tap and hold until Jaimito leaves."
+        },
+        "night_guide": {
+            "title": "Night-by-Night Guide",
+            "threats_label": "Threats:",
+            "focus_label": "Focus:",
+            "tips_label": "Tips:",
+            "night1": {
+                "title": "Night 1 – Basic Training",
+                "threats": "Chavo del Ocho",
+                "focus": "Learn camera layout and basic movement cues.",
+                "tips": "Avoid overusing flashlight; establish consistent camera-check routine."
+            },
+            "night2": {
+                "title": "Night 2 – Reaction Training",
+                "threats": "Kiko, Don Ramón",
+                "focus": "Introduce item usage and character-specific countermeasures.",
+                "tips": "Keep talcum powder and phone panel ready; act immediately upon threat recognition."
+            },
+            "night3": {
+                "title": "Night 3 – Multitasking Begins",
+                "threats": "Audio system for Doña Florinda",
+                "focus": "Manage multiple threats simultaneously; begin structured camera-check routines.",
+                "tips": "Prioritize fast-moving threats; prepare items in advance; avoid focusing on a single camera too long."
+            },
+            "night4": {
+                "title": "Night 4 – Visual Cue Awareness",
+                "threats": "La Chilindrina, Profesor Jirafales, La Bruja del 71",
+                "focus": "Detect brief visual cues while handling other enemies.",
+                "tips": "Scan cameras carefully; keep lollipop and coffee ready; anticipate overlapping attacks."
+            },
+            "night5": {
+                "title": "Night 5 – Full Mechanic Mastery",
+                "threats": "Jaimito",
+                "focus": "All mechanics active; high-pressure multitasking.",
+                "tips": "Detect broom instantly; respond to Don Ramón without delay; control flashlight usage carefully; hold Jaimito’s mailbag until departure."
+            }
+        },
+        "survival": {
+            "title": "Important Survival Principles",
+            "li1": "Conserve flashlight usage; unnecessary use increases threat levels.",
+            "li2": "Monitor visual cues continuously; brief lapses can be fatal.",
+            "li3": "Prepare items before enemies arrive; do not search during emergencies.",
+            "li4": "Maintain a consistent camera-checking routine; predictability reduces mistakes.",
+            "li5": "React immediately; hesitation is more dangerous than incorrect input."
+        },
+        "story": {
+            "title": "Story Outcome",
+            "description": "After surviving all five nights, the investigation confirms Chavo del Ocho as the cause of the deadly incidents. Story information is revealed through gameplay and environmental clues rather than cutscenes."
+        }
     },
     "longtail": {
+        "seotitle": "Chaves Nightmares Text Guide: Characters, Tools & Tips",
+        "seodes": "Explore Chaves Nightmares text guide. Learn enemy behaviors, tools, controls, and night strategies to survive all five nights successfully.",
         "title1": "Chaves Nightmares Download",
         "content1": "Download Chaves Nightmares now and enjoy the thrilling horror adventure. Get the latest version safely and start playing on your device today.",
         "title2": "Chaves Nightmares APK",
@@ -178,14 +260,8 @@
         "content7": "Currently, Chaves Nightmares is not available to play online. You can only enjoy the game by downloading it to your device. Make sure to follow the installation instructions for a safe experience.",
         "title8": "Does the game support Spanish?",
         "content8": "Spanish language support depends on the version you download. Some builds include full Spanish text, while others use mixed languages or rely entirely on community translations. If your version does not fully support Spanish, it's recommended to look for other builds of the same project, avoid unknown sources with suspicious 'mods,' and prioritize versions released by well-known communities or channels. Language matters, but file safety matters more.",
-        "title9": "Chaves Nightmares Game ",
-        "content9": "Chaves Nightmares is a thrilling horror game inspired by classic survival games. Players must survive intense nights, uncover mysteries, and face scary challenges in a suspenseful environment.",
         "title10": "Five Nights at Freddy's ",
-        "content10": "Five Nights at Freddy's is a popular survival horror game series where players must survive five nights in a haunted location while avoiding animatronic enemies. The series inspired many indie horror games, including Chaves Nightmares.",
-        "title11": "Chaves Nightmares & FNAF",
-        "content11": "Chaves Nightmares draws inspiration from the popular FNAF series. Like FNAF, it is a survival horror game where players face suspenseful nights and creepy challenges, but with unique characters and story elements.",
-        "title12": "Five Nights at Chaves Nightmares",
-        "content12": "Five Nights at Chaves Nightmares is a survival horror game inspired by the FNAF series. Players must survive suspenseful nights, solve mysteries, and face scary challenges, all with the unique characters and story of Chaves Nightmares."
+        "content10": "Five Nights at Freddy's is a popular survival horror game series where players must survive five nights in a haunted location while avoiding animatronic enemies. The series inspired many indie horror games, including Chaves Nightmares."
     },
     "page1": {
         "metatitle": "Chaves Nightmares 1.0.4 | Latest Free verison",

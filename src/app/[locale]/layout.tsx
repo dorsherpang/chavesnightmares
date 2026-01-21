@@ -27,7 +27,9 @@ export async function generateMetadata({
     const canonicalUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}`;
 
     return {
-        title: messages.home.seotitle,
+        title: locale === 'en'
+            ? 'Chaves Nightmares – Survival Horror Game Official Website'
+            : messages.home.seotitle,
         description: messages.home.description,
         keywords: [
             'horror game',

@@ -16,16 +16,16 @@ export async function generateMetadata({
 
     const alternates: Record<string, string> = {};
     locales.forEach((loc) => {
-        alternates[loc] = `${baseUrl}/${loc}/download`;
+        alternates[loc] = `${baseUrl}/${loc}/article`;
     });
 
-    const canonicalUrl = locale === 'en' ? `${baseUrl}/download` : `${baseUrl}/${locale}/download`;
+    const canonicalUrl = locale === 'en' ? `${baseUrl}/article` : `${baseUrl}/${locale}/article`;
 
     return {
         title: locale === 'en'
-            ? 'Chaves Nightmares Download – Latest Version for Android & PC'
-            : messages.home.downloadtitle,
-        description: messages.home.downloaddescription,
+            ? 'Chaves Nightmares Text Guide: Characters, Tools & Tips'
+            : messages.longtail.seotitle,
+        description: messages.longtail.seodes,
         keywords: [
             'Chaves Nightmares',
             'free download',
@@ -40,8 +40,8 @@ export async function generateMetadata({
             languages: alternates,
         },
         openGraph: {
-            title: messages.home.downloadtitle,
-            description: messages.home.downloaddescription,
+            title: messages.longtail.seotitle,
+            description: messages.longtail.seodes,
             url: canonicalUrl,
             siteName: 'Chaves Nightmares',
             type: 'website',
@@ -56,8 +56,8 @@ export async function generateMetadata({
         },
         twitter: {
             card: 'summary_large_image',
-            title: messages.home.downloadtitle,
-            description: messages.home.downloaddescription,
+            title: messages.longtail.seotitle,
+            description: messages.longtail.seodes,
             images: ['/mobile-banner.png']
         }
 

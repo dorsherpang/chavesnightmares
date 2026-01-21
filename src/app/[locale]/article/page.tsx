@@ -87,16 +87,6 @@ export default function ArticlePage() {
 
         </section>
 
-        {/* longtail section 9*/}
-        <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
-            <Link href={`/${locale}/article/chaves-nightmares-game`}>
-                <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
-                    {t('longtail.title9')}
-                </h2>
-            </Link>
-
-        </section>
-
         {/* longtail section 10*/}
         <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
             <Link href={`/${locale}/article/five-nights-at-freddys`}>
@@ -107,24 +97,6 @@ export default function ArticlePage() {
 
         </section>
 
-        {/* longtail section 11*/}
-        <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
-            <Link href={`/${locale}/article/chaves-nightmares-fnaf`}>
-                <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
-                    {t('longtail.title11')}
-                </h2>
-            </Link>
-
-        </section>
-
-        {/* longtail section 12*/}
-        <section className="bg-[#0f0f0f] p-4 rounded-lg border border-[#2a1a1a] shadow-[0_0_20px_rgba(139,0,0,0.1)]">
-            <Link href={`/${locale}/article/five-nights-at-chaves-nightmares`}>
-                <h2 className="text-lg font-bold mb-3 text-red-500 tracking-widest uppercase">
-                    {t('longtail.title12')}
-                </h2>
-            </Link>
-        </section>
         <div className="flex justify-center mt-3">
             <a
                 href={`/${useI18n().locale}/`}

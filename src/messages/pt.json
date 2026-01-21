@@ -91,83 +91,166 @@
         ]
     },
     "playtips": {
-        "title": "DICAS DE JOGO",
-        "subtitle": "Guia de Jogabilidade para Chaves Nightmares",
-        "title2": "Chaves Nightmares – Guia de Jogo de Terror de Sobrevivência",
-        "description1": "Jogue como detetive em Chaves Nightmares, um jogo de terror de sobrevivência. Sobreviva cinco noites, investigue incidentes violentos e descubra o culpado.",
-        "description2": "Em vez de depender de cutscenes ou exposições diretas, o jogo entrega a narrativa por meio de detalhes ambientais, informações fragmentadas e momentos de silêncio. Os elementos da história são descobertos observando o contexto, criando uma narrativa gradual que reforça a tensão e a incerteza.",
-        "objective": "Objetivo",
-        "objective_list": [
-            "Sobreviva a cada noite até as 8:00",
-            "Monitore os movimentos dos personagens pelas câmeras de segurança",
-            "Use ferramentas e itens limitados estrategicamente",
-            "Evite encontros hostis respondendo corretamente ao comportamento de cada personagem",
-            "Suporte a dificuldade crescente à medida que novas ameaças surgem"
-        ],
-        "core_gameplay_loop": "Mecânica Principal",
-        "core_gameplay_loop_list": [
-            "Monitore as câmeras para acompanhar a atividade dos botargas.",
-            "Identifique qual personagem está se aproximando.",
-            "Aplique a contramedida correta (item, áudio ou interação).",
-            "Gerencie recursos limitados, especialmente o uso da lanterna.",
-            "Reaja rapidamente a eventos inesperados e falhas do sistema.",
-            "Sobreviva até a manhã."
-        ],
-        "characters_title": "Personagens e Como Lidar com Eles",
-        "characters_description": "Cada botarga possui comportamentos únicos e exige contramedidas específicas. Falhar pode ser fatal.",
-        "chavo_del_ocho": "Chavo del Ocho",
-        "chavo_description": "Antagonista principal. Extremamente sensível à luz. Usar a lanterna em excesso pode provocar um ataque. <strong>Use a lanterna com moderação e estratégia.</strong>",
-        "kiko": "Kiko",
-        "kiko_description": "Obcecado em manter a roupa limpa. Pode ser dissuadido usando <strong>talco</strong>. Aplique imediatamente quando aparecer.",
-        "dona_florinda": "Doña Florinda",
-        "dona_florinda_description": "Fica agressiva se não controlada. Responde a <strong>sinais de áudio</strong>. Use o sistema de áudio no momento correto para mantê-la calma.",
-        "don_ramon": "Don Ramón",
-        "don_ramon_description": "Deve ser \"capturado\" ligando para <strong>Don Barriga</strong> pelo painel telefônico. Ignorá-lo leva a consequências fatais.",
-        "la_chilindrina": "La Chilindrina",
-        "la_chilindrina_description": "Travessa e imprevisível. Pode ser distraída com um <strong>pirulito</strong>. Ofereça antes que se aproxime demais.",
-        "profesor_jirafales": "Profesor Jirafales",
-        "profesor_jirafales_description": "Fica perigoso se alterado. Precisa de <strong>café</strong> para se acalmar. Tenha café pronto quando introduzido.",
-        "la_bruja_del_71": "La Bruja del 71",
-        "la_bruja_del_71_description": "Personagem perigosa. Deixa a <strong>vassoura visível na câmera</strong> antes de atacar. Localize e clique rapidamente para forçá-la a recuar.",
-        "jaimito": "Jaimito, o Carteiro (Apenas Noite 5)",
-        "jaimito_description": "Aparece na última noite. Evite pressionando e segurando sua bolsa de correspondência até que vá embora.",
-        "tools_title": "Ferramentas e Sistemas",
-        "tools_list": [
-            "<strong>Lanterna:</strong> Revela ameaças mas consome bateria e irrita Chavo.",
-            "<strong>Câmeras de Segurança:</strong> Monitora todas as áreas sem custo de bateria.",
-            "<strong>Sistema de Áudio:</strong> Manipula personagens específicos.",
-            "<strong>Talco:</strong> Afasta Kiko.",
-            "<strong>Pirulito:</strong> Distrai Chilindrina.",
-            "<strong>Painel Telefônico:</strong> Ligue para Don Barriga para lidar com Don Ramón.",
-            "<strong>Café:</strong> Acalma o Profesor Jirafales."
-        ],
-        "survival_tips_title": "Dicas Importantes de Sobrevivência",
-        "survival_tips_list": [
-            "Não abuse da lanterna — a bateria e a sensibilidade de Chavo tornam arriscado.",
-            "Priorize localizar a vassoura da bruxa — ignorá-la costuma ser fatal.",
-            "Multitarefa é essencial a partir da Noite 3.",
-            "Os personagens se movem de forma imprevisível — nunca confie em padrões fixos.",
-            "Falhas no sistema de áudio aumentam o desafio — mantenha a calma e reaja rápido.",
-            "Reações tardias são fatais — hesitar geralmente é pior que errar."
-        ],
-        "difficulty_progression_title": "Progressão de Dificuldade",
-        "difficulty_progression_list": [
-            "Noites 1–2: Aprenda mecânicas básicas e respostas dos personagens.",
-            "Noites 3–4: Multitarefa sob pressão com ameaças sobrepostas.",
-            "Noite 5: Domínio completo necessário; todas as mecânicas ativas simultaneamente."
-        ],
-        "story_conclusion_title": "Conclusão da História",
-        "story_conclusion_description": "Após sobreviver às cinco noites, a investigação revela que <strong>o próprio Chavo del Ocho foi responsável</strong> pelos incidentes fatais no local.",
-        "genre_experience_title": "Gênero e Experiência",
-        "genre_experience_description": "Horror de sobrevivência com gestão de recursos, reações baseadas em quebra-cabeças, tensão psicológica e estrutura de cinco noites."
+        "title": "Guia Completo de Jogo",
+        "seotitle": "Guia Completo de Chaves Nightmares e Dicas de Sobrevivência",
+        "description": "Domine Chaves Nightmares com nosso guia completo. Aprenda padrões de inimigos, uso de ferramentas e estratégias para sobreviver às cinco noites.",
+        "objective": {
+            "title": "Objetivo",
+            "description": "O objetivo principal de Chaves Nightmares é sobreviver a cada noite até a manhã, identificando e respondendo corretamente às ameaças. A sobrevivência depende de observação, ação oportuna e uso adequado das ferramentas.",
+            "li1": "Sobreviva até a manhã – As noites terminam automaticamente às 8:00; todas as ações focam em durar até o amanhecer.",
+            "li2": "Acompanhe os movimentos dos inimigos – Câmeras e sinais de áudio fornecem alertas antecipados.",
+            "li3": "Identifique inimigos ativos – Cada personagem se comporta de forma diferente e requer respostas específicas.",
+            "li4": "Use ferramentas corretamente – Lanterna, itens, sistema de áudio e painel de telefone têm um propósito definido.",
+            "li5": "Lide com dificuldade crescente – Noites 3–5 introduzem múltiplas ameaças simultâneas."
+        },
+        "core_loop": {
+            "title": "Loop Principal do Jogo",
+            "li1": "Monitore as câmeras – Verifique todas as áreas regularmente para rastrear movimentos e detectar sinais visuais antecipados.",
+            "li2": "Identifique inimigos ativos – Determine exatamente qual personagem está se aproximando antes de agir.",
+            "li3": "Aplique a contramedida correta – Use o item, sistema ou interação apropriada.",
+            "li4": "Gerencie recursos – Economize bateria da lanterna e mantenha itens preparados para momentos críticos.",
+            "li5": "Repita até a manhã – O loop persiste, com ameaças se intensificando a cada noite."
+        },
+        "characters": {
+            "title": "Personagens & Contramedidas",
+            "table_header1": "Personagem",
+            "table_header2": "Comportamento",
+            "table_header3": "Como lidar",
+            "row1": {
+                "name": "Chavo del Ocho",
+                "behavior": "Sensível à luz; ameaça principal recorrente",
+                "handle": "Use a lanterna com moderação; flashes prolongados ou em pânico aumentam agressividade."
+            },
+            "row2": {
+                "name": "Kiko",
+                "behavior": "Aparecimento rápido e repentino",
+                "handle": "Aplique talco imediatamente; atrasar pode resultar em ataque inevitável."
+            },
+            "row3": {
+                "name": "Doña Florinda",
+                "behavior": "Torna-se hostil se ignorada; reage ao áudio",
+                "handle": "Acione o sistema de áudio no momento correto; ativação fora de tempo é ineficaz."
+            },
+            "row4": {
+                "name": "Don Ramón",
+                "behavior": "Aproxima-se lentamente; ignora câmeras/luz",
+                "handle": "Use o painel de telefone para chamar Don Barriga imediatamente; atraso causa morte instantânea."
+            },
+            "row5": {
+                "name": "La Chilindrina",
+                "behavior": "Movimento silencioso e imprevisível",
+                "handle": "Entregue o pirulito antes que se aproxime; uso tardio falha."
+            },
+            "row6": {
+                "name": "Profesor Jirafales",
+                "behavior": "Agressivo quando estressado",
+                "handle": "Mantenha o café pronto; use imediatamente quando estiver ativo."
+            },
+            "row7": {
+                "name": "La Bruja del 71",
+                "behavior": "Deixa a vassoura visível brevemente antes de atacar",
+                "handle": "Clique na vassoura imediatamente para forçar recuo; perder o sinal é fatal."
+            },
+            "row8": {
+                "name": "Jaimito (Somente Noite 5)",
+                "behavior": "Aparece apenas na última noite com mecânica única",
+                "handle": "Pressione e segure a sacola de correspondência até ele sair; soltar cedo provoca ataque."
+            }
+        },
+        "enemy_patterns": {
+            "title": "8 Padrões de Comportamento de Inimigos (Detalhado)",
+            "li1": "Abordagem direta – Os inimigos se movem diretamente para o escritório; contraponha imediatamente com o item designado (Don Ramón, Kiko).",
+            "li2": "Abordagem furtiva – Inimigos aparecem lentamente ou silenciosamente; use câmeras para detectar movimento antecipado (La Chilindrina).",
+            "li3": "Sinal visual – O ataque é indicado por objeto ou luz breve (La Bruja del 71 vassoura).",
+            "li4": "Resposta ativada por áudio – Requer uso do som ou sistema de áudio no momento preciso (Doña Florinda).",
+            "li5": "Agressividade sensível à luz – Uso excessivo da lanterna aumenta velocidade ou agressividade do inimigo (Chavo del Ocho).",
+            "li6": "Ameaça de presença contínua – O inimigo permanece ativo em uma zona específica e reage se ignorado (Profesor Jirafales).",
+            "li7": "Ativação repentina – Aparece inesperadamente com aviso mínimo; requer resposta rápida (Kiko).",
+            "li8": "Mecânica especial noturna – Aparece apenas em uma noite específica com interação única (Jaimito sacola de correspondência na Noite 5)."
+        },
+        "tools": {
+            "title": "Ferramentas & Sistemas (Detalhado)",
+            "li1": "Lanterna – Revela inimigos, mas consome bateria e aumenta agressividade de Chavo. Use brevemente para identificação; evite flashes em pânico.",
+            "li2": "Câmeras de Segurança – Monitora todas as áreas e detecta sinais visuais curtos; desenvolva um ciclo consistente de escaneamento.",
+            "li3": "Sistema de Áudio – Acalma certos personagens (Doña Florinda). Ative apenas no momento correto; pode falhar em noites posteriores.",
+            "li4": "Talco – Afasta Kiko; use imediatamente ao aparecer; não pode ser reutilizado até a próxima noite.",
+            "li5": "Pirulito – Distraí La Chilindrina; entregue antes que se aproxime.",
+            "li6": "Painel de Telefone – Chama Don Barriga para deter Don Ramón; deve ser usado imediatamente.",
+            "li7": "Café – Acalma Profesor Jirafales; prepare com antecedência e use quando ativo."
+        },
+        "controls": {
+            "title": "Métodos de Controle e Interação",
+            "pc_cameras": "Câmeras: Clique ou passe o mouse para trocar de visão.",
+            "pc_flashlight": "Lanterna: Clique esquerdo ou tecla atribuída.",
+            "pc_items": "Itens: Arraste e solte no personagem alvo ou use teclas de atalho.",
+            "pc_audio": "Sistema de áudio: Clique nos botões do painel no momento correto.",
+            "pc_phone": "Painel de telefone: Clique nos botões para chamar Don Barriga.",
+            "mobile_cameras": "Câmeras: Deslize ou toque nas miniaturas.",
+            "mobile_flashlight": "Lanterna: Toque brevemente no ícone.",
+            "mobile_items": "Itens: Arraste ou toque para aplicar.",
+            "mobile_audio": "Sistema de áudio: Toque para ativar no momento correto.",
+            "mobile_phone": "Painel de telefone: Toque para chamar Don Barriga.",
+            "mobile_mailbag": "Saco de correspondência (Noite 5): Toque e segure até que Jaimito saia."
+        },
+        "night_guide": {
+            "title": "Guia Noite a Noite",
+            "threats_label": "Ameaças:",
+            "focus_label": "Foco:",
+            "tips_label": "Dicas:",
+            "night1": {
+                "title": "Noite 1 – Treinamento Básico",
+                "threats": "Chavo del Ocho",
+                "focus": "Aprenda o layout das câmeras e sinais básicos de movimento.",
+                "tips": "Evite usar a lanterna excessivamente; estabeleça uma rotina consistente de checagem das câmeras."
+            },
+            "night2": {
+                "title": "Noite 2 – Treinamento de Reação",
+                "threats": "Kiko, Don Ramón",
+                "focus": "Introduza o uso de itens e contramedidas específicas para cada personagem.",
+                "tips": "Mantenha talco e painel de telefone prontos; aja imediatamente ao reconhecer ameaças."
+            },
+            "night3": {
+                "title": "Noite 3 – Início da Multitarefas",
+                "threats": "Sistema de áudio para Doña Florinda",
+                "focus": "Gerencie múltiplas ameaças simultaneamente; inicie rotinas estruturadas de checagem das câmeras.",
+                "tips": "Priorize ameaças rápidas; prepare itens com antecedência; evite focar demais em uma única câmera."
+            },
+            "night4": {
+                "title": "Noite 4 – Atenção a Sinais Visuais",
+                "threats": "La Chilindrina, Profesor Jirafales, La Bruja del 71",
+                "focus": "Detecte sinais visuais breves enquanto lida com outros inimigos.",
+                "tips": "Escaneie as câmeras cuidadosamente; mantenha pirulito e café prontos; antecipe ataques simultâneos."
+            },
+            "night5": {
+                "title": "Noite 5 – Domínio Completo das Mecânicas",
+                "threats": "Jaimito",
+                "focus": "Todas as mecânicas ativas; multitarefa sob alta pressão.",
+                "tips": "Detecte a vassoura instantaneamente; responda a Don Ramón sem demora; controle cuidadosamente o uso da lanterna; mantenha pressionada a sacola de correspondência de Jaimito até ele sair."
+            }
+        },
+        "survival": {
+            "title": "Princípios Importantes de Sobrevivência",
+            "li1": "Economize o uso da lanterna; uso desnecessário aumenta o nível de ameaça.",
+            "li2": "Monitore continuamente os sinais visuais; lapsos breves podem ser fatais.",
+            "li3": "Prepare os itens antes dos inimigos chegarem; não procure durante emergências.",
+            "li4": "Mantenha uma rotina consistente de checagem das câmeras; previsibilidade reduz erros.",
+            "li5": "Reaja imediatamente; hesitar é mais perigoso do que uma ação incorreta."
+        },
+        "story": {
+            "title": "Resultado da História",
+            "description": "Após sobreviver às cinco noites, a investigação confirma que Chavo del Ocho foi a causa dos incidentes mortais. A história é revelada através da jogabilidade e pistas ambientais, não por cutscenes."
+        }
     },
     "longtail": {
+        "seotitle": "Guia de Texto Chaves Nightmares: Personagens e Dicas",
+        "seodes": "Confira o guia de texto de Chaves Nightmares. Aprenda padrões de inimigos, uso de ferramentas, controles e estratégias para sobreviver às cinco noites.",
         "title1": "Baixar Chaves Nightmares",
         "content1": "Baixe Chaves Nightmares agora e aproveite esta emocionante aventura de terror. Obtenha a versão mais recente com segurança e comece a jogar no seu dispositivo hoje mesmo.",
         "title2": "Chaves Nightmares APK",
         "content2": "Baixe o mais recente Chaves Nightmares APK para dispositivos Android. Instale com segurança e aproveite a experiência completa de terror diretamente no seu celular ou tablet.",
         "title3": "Chaves Nightmares Tem Vírus?",
         "content3": "APKs de sites desconhecidos podem estar modificados. Para segurança, baixe apenas de fontes confiáveis, escaneie o APK com antivírus, evite versões irreais como 'recursos ilimitados' ou 'sem anúncios', e cancele a instalação se o jogo solicitar permissões irreais.",
+        "title4": "Chaves Nightmares para iPhone",
         "content4": "Chaves Nightmares ainda não está disponível para iPhone. No entanto, você pode jogar a versão Android em seu dispositivo usando um emulador Android para iOS. Certifique-se de seguir as instruções com atenção para uma experiência segura.",
         "title5": "Chaves Nightmares para Android",
         "content5": "Baixe Chaves Nightmares com segurança no seu dispositivo Android. Siga as instruções de instalação para aproveitar a experiência completa de terror diretamente no seu celular ou tablet.",

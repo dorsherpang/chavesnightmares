@@ -21,10 +21,7 @@ export default function HomePage() {
         { slug: 'chaves-nightmares-1-0-4', titleKey: 'longtail.title6', contentKey: 'longtail.content6' },
         { slug: 'chaves-nightmares-online', titleKey: 'longtail.title7', contentKey: 'longtail.content7' },
         { slug: 'chaves-nightmares-spanish', titleKey: 'longtail.title8', contentKey: 'longtail.content8' },
-        { slug: 'chaves-nightmares-game', titleKey: 'longtail.title9', contentKey: 'longtail.content9' },
         { slug: 'five-nights-at-freddys', titleKey: 'longtail.title10', contentKey: 'longtail.content10' },
-        { slug: 'chaves-nightmares-fnaf', titleKey: 'longtail.title11', contentKey: 'longtail.content11' },
-        { slug: 'five-nights-at-chaves-nightmares', titleKey: 'longtail.title12', contentKey: 'longtail.content12' },
     ];
     const versionFeatures = [
         { title: t('feature.title1'), desc: t('feature.desc1') },
