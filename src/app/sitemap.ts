@@ -14,13 +14,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         'chaves-nightmares-android',
         'chaves-nightmares-apk',
         'chaves-nightmares-download',
-        'chaves-nightmares-fnaf',
-        'chaves-nightmares-game',
         'chaves-nightmares-iphone',
         'chaves-nightmares-online',
         'chaves-nightmares-spanish',
         'chaves-nightmares-virus',
-        'five-nights-at-chaves-nightmares',
         'five-nights-at-freddys',
     ];
 

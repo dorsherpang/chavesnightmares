@@ -24,7 +24,9 @@ export async function generateMetadata({
     const canonicalUrl = locale === 'en' ? `${baseUrl}/artile/chaves-nightmares-apk` : `${baseUrl}/${locale}/artile/chaves-nightmares-apk`;
 
     return {
-        title: messages.page3.metatitle,
+        title: locale === 'en'
+            ? 'Chaves Nightmares APK – Download & Installation Guide'
+            : messages.page3.metatitle,
         description: messages.page3.metadescrib,
         keywords: [
             'Chaves Nightmares',
@@ -41,6 +43,27 @@ export async function generateMetadata({
             canonical: canonicalUrl,
             languages: alternates,
         },
+        openGraph: {
+            title: messages.page3.metatitle,
+            description: messages.page3.metadescrib,
+            url: canonicalUrl,
+            siteName: 'Chaves Nightmares',
+            type: 'website',
+            images: [
+                {
+                    url: '/mobile-banner.png',
+                    width: 1200,
+                    height: 630,
+                    alt: 'Chaves Nightmares'
+                }
+            ],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: messages.page3.metatitle,
+            description: messages.page3.metadescrib,
+            images: ['/mobile-banner.png']
+        }
     };
 }
 

@@ -1,108 +1,144 @@
-"use client";
+'use client';
 
 import { useI18n } from '@/lib/i18n-context';
+import Image from 'next/image';
 
-export default function ArticlePage() {
+export default function PageChavesAPK() {
     const { t } = useI18n();
-    const title = t('longtail.title2');
-    const content = t('longtail.content2');
 
     return (
-        <section className="bg-[#0f0f0f] p-6 rounded-xl border border-[#2a1a1a] shadow-[0_0_30px_rgba(139,0,0,0.15)] max-w-4xl mx-auto">
-            {/* H1 标题 */}
-            <h1 className="text-3xl md:text-4xl font-extrabold mb-6 text-red-500 tracking-widest uppercase">
-                {title}
+        <main className="max-w-4xl mx-auto px-4 py-14 space-y-16 text-gray-200 text-lg leading-loose">
+
+            {/* ================= H1 ================= */}
+            <h1 className="text-5xl font-extrabold tracking-wide text-red-700 drop-shadow-[0_3px_8px_#450a0a]">
+                {t('page3.title')}
             </h1>
 
-            {/* 段落内容 */}
-            <p className="text-gray-300 text-base md:text-lg leading-relaxed mb-6">
-                {content}
-            </p>
-            {/* H2 1示例 */}
-            <h2 className="text-2xl md:text-3xl font-bold mb-4 mt-8 text-red-400 border-l-4 border-red-600 pl-3">
-                {t('page3.title1')}
-            </h2>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-                {t('page3.content1-1')}
-            </p>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-                {t('page3.content1-2')}
-            </p>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-                {t('page3.content1-3')}
-            </p>
-            <div className="flex justify-center mt-3">
-                <a
-                    href={`/${useI18n().locale}/download`}
-                    className="inline-block bg-red-600 text-white font-semibold uppercase tracking-widest text-sm md:text-base px-6 md:px-10 py-3 md:py-4 rounded-lg shadow-lg whitespace-nowrap hover:bg-red-700 hover:scale-105 transition-transform transition-colors duration-300"
-                >
-                    {t('home.downloadNow')}
-                </a>
-            </div>
-            {/* H2 2示例 */}
-            <h2 className="text-2xl md:text-3xl font-bold mb-4 mt-8 text-red-400 border-l-4 border-red-600 pl-3">
-                {t('page3.title2')}
-            </h2>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-                {t('page3.content2-1')}
-            </p>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-                {t('page3.content2-2')}
-            </p>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-                {t('page3.content2-3')}
-            </p>
-            <div className="flex justify-center mt-3">
-                <a
-                    href={`/${useI18n().locale}/playtips`}
-                    className="inline-block bg-red-600 text-white font-semibold uppercase tracking-widest text-sm md:text-base px-6 md:px-10 py-3 md:py-4 rounded-lg shadow-lg whitespace-nowrap hover:bg-red-700 hover:scale-105 transition-transform transition-colors duration-300"
-                >
-                    How to play
-                </a>
-            </div>
-            {/* H2 3示例 */}
-            <h2 className="text-2xl md:text-3xl font-bold mb-4 mt-8 text-red-400 border-l-4 border-red-600 pl-3">
-                {t('page3.title3')}
-            </h2>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-                {t('page3.content3-1')}
-            </p>
-            <ul className="list-disc list-inside space-y-2 text-gray-300">
-                <li>{t('page3.content3-3-1')}</li>
-                <li>{t('page3.content3-3-2')}</li>
-                <li>{t('page3.content3-3-3')}</li>
-                <li>{t('page3.content3-3-4')}</li>
-            </ul><br />
-            <p className="text-gray-300 mb-6 leading-relaxed">
-                {t('page3.content3-2')}
+            <p className="text-gray-300">
+                {t('page3.section1_description')}
             </p>
 
-            {/* 图片占整行显示
-            <div className="my-6">
-                <img
-                    src="/path/to/image.jpg"
-                    alt="示例图片"
-                    className="w-full rounded-lg shadow-lg object-cover"
-                />
-            </div>
-            */}
+            {/* ================= Section 1 ================= */}
+            <section className="space-y-6">
+                <h2 className="text-3xl font-bold text-red-700 tracking-wide drop-shadow-[0_2px_6px_#450a0a]">
+                    {t('page3.section1_title')}
+                </h2>
 
-            {/* 视频占整行显示
-            <div className="my-6">
-                <iframe
-                    src="https://www.youtube.com/embed/example"
-                    title="示例视频"
-                    className="w-full aspect-video rounded-lg shadow-lg"
-                    allowFullScreen
-                ></iframe>
-            </div>
-            */}
+                <ul className="list-disc list-inside space-y-2 text-gray-300">
+                    {[t('page3.section1_feature1'), t('page3.section1_feature2'), t('page3.section1_feature3'), t('page3.section1_feature4')].map((item, i) => (
+                        <li key={i}>{item}</li>
+                    ))}
+                </ul>
+            </section>
 
-            {/* 小结段落 
-            <p className="text-gray-300 mt-8 leading-relaxed">
-                文章结束语或总结，可以加粗强调关键词 <span className="font-bold text-red-400">重点内容</span>。
-            </p>*/}
-        </section>
+            {/* ================= Section 2 ================= */}
+            <section className="space-y-6">
+                <h2 className="text-3xl font-bold text-red-700 tracking-wide drop-shadow-[0_2px_6px_#450a0a]">
+                    {t('page3.section2_title')}
+                </h2>
 
+                <h3 className="text-2xl font-semibold text-red-600">
+                    {t('page3.section2_latestTitle')}
+                </h3>
+                <p>{t('page3.section2_version')} ({t('page3.section2_fileSize')})</p>
+                <p>{t('page3.section2_downloadNote')}</p>
+
+                <h3 className="text-2xl font-semibold text-red-600">
+                    {t('page3.section2_requirementsTitle')}
+                </h3>
+                <ul className="list-disc list-inside space-y-2 text-gray-300">
+                    {[t('page3.section2_requirement1'), t('page3.section2_requirement2')].map((item, i) => (
+                        <li key={i}>{item}</li>
+                    ))}
+                </ul>
+
+                <div className="flex justify-center mt-3">
+                    <a
+                        href={`/${useI18n().locale}/download`}
+                        className="inline-block bg-red-600 text-white font-semibold uppercase tracking-widest text-sm md:text-base px-6 md:px-10 py-3 md:py-4 rounded-lg shadow-lg whitespace-nowrap hover:bg-red-700 hover:scale-105 transition-transform transition-colors duration-300"
+                    >
+                        {t('home.downloadNow')}
+                    </a>
+                </div>
+            </section>
+
+            {/* ================= Section 3 ================= */}
+            <section className="space-y-6">
+                <h2 className="text-3xl font-bold text-red-700 tracking-wide drop-shadow-[0_2px_6px_#450a0a]">
+                    {t('page3.section3_title')}
+                </h2>
+
+                <h3 className="text-2xl font-semibold text-red-600">
+                    {t('page3.section3_guideTitle')}
+                </h3>
+                <ul className="list-decimal list-inside space-y-2 text-gray-300">
+                    {[t('page3.section3_step1'), t('page3.section3_step2'), t('page3.section3_step3'), t('page3.section3_step4'), t('page3.section3_step5')].map((item, i) => (
+                        <li key={i}>{item}</li>
+                    ))}
+                </ul>
+
+                <h3 className="text-2xl font-semibold text-red-600">
+                    {t('page3.section3_issuesTitle')}
+                </h3>
+                <ul className="list-disc list-inside space-y-2 text-gray-300">
+                    {[t('page3.section3_issue1'), t('page3.section3_issue2'), t('page3.section3_issue3')].map((item, i) => (
+                        <li key={i}>{item}</li>
+                    ))}
+                </ul>
+            </section>
+
+            {/* ================= Section 4 ================= */}
+            <section className="space-y-6">
+                <h2 className="text-3xl font-bold text-red-700 tracking-wide drop-shadow-[0_2px_6px_#450a0a]">
+                    {t('page3.section4_title')}
+                </h2>
+
+                <h3 className="text-2xl font-semibold text-red-600">{t('page3.section4_virusTitle')}</h3>
+                <p>{t('page3.section4_virusDescription')}</p>
+
+                <h3 className="text-2xl font-semibold text-red-600">{t('page3.section4_permissionsTitle')}</h3>
+                <p>{t('page3.section4_permissionsDescription')}</p>
+            </section>
+
+            {/* ================= Section 5 ================= */}
+            <section className="space-y-6">
+                <h2 className="text-3xl font-bold text-red-700 tracking-wide drop-shadow-[0_2px_6px_#450a0a]">
+                    {t('page3.section5_title')}
+                </h2>
+
+                <h3 className="text-2xl font-semibold text-red-600">{t('page3.section5_changelogTitle')}</h3>
+                <ul className="list-disc list-inside space-y-2 text-gray-300">
+                    {[t('page3.section5_changelog1'), t('page3.section5_changelog2'), t('page3.section5_changelog3')].map((item, i) => (
+                        <li key={i}>{item}</li>
+                    ))}
+                </ul>
+
+                <h3 className="text-2xl font-semibold text-red-600">{t('page3.section5_upcomingTitle')}</h3>
+                <ul className="list-disc list-inside space-y-2 text-gray-300">
+                    {[t('page3.section5_upcoming1'), t('page3.section5_upcoming2'), t('page3.section5_upcoming3')].map((item, i) => (
+                        <li key={i}>{item}</li>
+                    ))}
+                </ul>
+            </section>
+
+            {/* ================= Section 6 ================= */}
+            <section className="space-y-6">
+                <h2 className="text-3xl font-bold text-red-700 tracking-wide drop-shadow-[0_2px_6px_#450a0a]">
+                    {t('page3.section6_title')}
+                </h2>
+
+                {[
+                    { q: t('page3.section6_faq1_question'), a: t('page3.section6_faq1_answer') },
+                    { q: t('page3.section6_faq2_question'), a: t('page3.section6_faq2_answer') },
+                    { q: t('page3.section6_faq3_question'), a: t('page3.section6_faq3_answer') }
+                ].map((faq, i) => (
+                    <div key={i} className="space-y-1">
+                        <strong className="text-red-500">{faq.q}</strong>
+                        <p className="text-gray-300">{faq.a}</p>
+                    </div>
+                ))}
+            </section>
+
+        </main>
     );
 }

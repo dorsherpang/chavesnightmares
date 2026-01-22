@@ -310,40 +310,194 @@
     "page3": {
         "metatitle": "Chaves Nightmares APK| Para Windows e Android",
         "metadescrib": "Download gratuito da versão mais recente de Chaves Nightmares. Suporta Windows e Android com acesso completo à última versão, baixe pelo site oficial.",
-        "title1": "Última versão APK para Windows e Android",
-        "content1-1": "O APK atual de Chaves Nightmares foi lançado como versão 1.0.4, compartilhada pelo desenvolvedor no fórum da comunidade em janeiro de 2026.",
-        "content1-2": "Esta build é compatível com Windows e Android, permitindo que os jogadores experimentem o jogo no PC ou no celular. No momento, dispositivos iOS não são suportados, e o jogo não inclui recursos online ou em rede.",
-        "content1-3": "Para evitar arquivos modificados ou instáveis, recomenda-se baixar o APK do site oficial usando o botão abaixo. O jogo funciona offline após a instalação e não requer login em conta.",
-        "title2": "Dicas do jogo",
-        "content2-1": "A jogabilidade em Chaves Nightmares foca na investigação em vez do confronto direto. Como detetive, seu papel é sobreviver cinco noites enquanto reúne lentamente informações sobre o que aconteceu no ambiente.",
-        "content2-2": "Muitos encontros dependem de tempo e movimento. Alguns perigos podem ser evitados permanecendo alerta, enquanto outros exigem que o jogador reconheça padrões ao longo das noites. Explorar com cuidado geralmente revela pistas importantes para eventos futuros.",
-        "content2-3": "Se quiser um detalhamento mais claro das mecânicas e rotas de sobrevivência, você pode visitar a seção How to Play para guias estendidos e dicas de jogabilidade.",
-        "title3": "Recursos da versão atual",
-        "content3-1": "A versão 1.0.4 mantém a experiência focada em estabilidade e atmosfera:",
-        "content3-2": "Em vez de adicionar novos sistemas, esta versão refina a estrutura existente, oferecendo uma maneira sólida de vivenciar a história completa do início ao fim.",
-        "content3-3-1": "Desempenho consistente nas plataformas suportadas",
-        "content3-3-2": "Transições de cena suaves com interrupções mínimas",
-        "content3-3-3": "Apresentação visual 2D projetada para visibilidade limitada",
-        "content3-3-4": "Indicações sonoras que ajudam o jogador em momentos de tensão"
+        "title": "Chaves Nightmares APK",
+        "section1_title": "O que é Chaves Nightmares APK?",
+        "section1_description": "Chaves Nightmares é um jogo de sobrevivência de terror intenso e emocionante. Você joga como um detetive tentando sobreviver em um mundo cheio de medo e mistério. O jogo conta sua história por meio de efeitos sonoros, pistas do ambiente e informações dispersas, em vez de cutscenes diretas. Esse design aumenta a tensão e a imersão, tornando cada momento de exploração imprevisível e emocionante.",
+        "section1_feature1": "Compatível com dispositivos Android para uma experiência de jogo completa e suave",
+        "section1_feature2": "Arquivo APK leve para download e instalação rápidos",
+        "section1_feature3": "A versão mais recente melhora gráficos e desempenho para uma jogabilidade mais fluida",
+        "section1_feature4": "Não é necessário arquivos de dados adicionais — você pode jogar imediatamente após a instalação",
+        "section2_title": "Baixar Chaves Nightmares APK",
+        "section2_latestTitle": "Última versão para Android",
+        "section2_version": "v1.0.4",
+        "section2_fileSize": "cerca de 61MB",
+        "section2_downloadNote": "Clique no botão de download abaixo para baixar o APK de uma fonte confiável",
+        "section2_requirementsTitle": "Requisitos do sistema",
+        "section2_requirement1": "Versão Android: 5.0 ou superior",
+        "section2_requirement2": "Espaço livre: pelo menos 1GB",
+        "section3_title": "Como instalar Chaves Nightmares APK",
+        "section3_guideTitle": "Guia de instalação passo a passo",
+        "section3_step1": "Vá para as configurações do seu dispositivo e permita a instalação de 'Fontes desconhecidas'",
+        "section3_step2": "Baixe o arquivo APK para o armazenamento do seu telefone",
+        "section3_step3": "Abra o arquivo APK e toque em 'Instalar'",
+        "section3_step4": "Após a instalação, abra o jogo e conceda as permissões necessárias",
+        "section3_step5": "Comece sua aventura de terror",
+        "section3_issuesTitle": "Problemas comuns de instalação",
+        "section3_issue1": "Instalação falhou: certifique-se de que 'Fontes desconhecidas' está permitido",
+        "section3_issue2": "O jogo fecha: verifique se a versão do Android atende aos requisitos",
+        "section3_issue3": "Não é possível baixar: tente outra rede ou libere espaço de armazenamento",
+        "section4_title": "Segurança do Chaves Nightmares APK",
+        "section4_virusTitle": "Riscos de vírus e malware",
+        "section4_virusDescription": "Baixar arquivos APK de sites desconhecidos ou não confiáveis pode ser arriscado. Sempre baixe de fontes oficiais ou confiáveis e verifique o link. Escaneie o arquivo com aplicativos de segurança móvel após o download para maior segurança.",
+        "section4_permissionsTitle": "Notas sobre permissões",
+        "section4_permissionsDescription": "O jogo requer apenas permissões básicas de armazenamento e rede. Evite conceder permissões do sistema desnecessárias para proteger sua privacidade.",
+        "section5_title": "Atualizações e novos recursos",
+        "section5_changelogTitle": "Registro de alterações da última versão",
+        "section5_changelog1": "Corrigidos erros conhecidos e melhorada a compatibilidade",
+        "section5_changelog2": "Comportamento dos inimigos otimizado para desafios mais estratégicos",
+        "section5_changelog3": "Interface e fluidez do jogo aprimoradas para melhor experiência",
+        "section5_upcomingTitle": "Recursos futuros",
+        "section5_upcoming1": "Novos níveis noturnos para aprofundar o jogo",
+        "section5_upcoming2": "Adicionados novos tipos de inimigos e itens para expandir a jogabilidade",
+        "section5_upcoming3": "Sistema de conquistas planejado para recompensar a exploração",
+        "section6_title": "Perguntas frequentes",
+        "section6_faq1_question": "Preciso desbloquear o arquivo APK?",
+        "section6_faq1_answer": "Não é necessário desbloquear. O APK oficial funciona perfeitamente e é seguro.",
+        "section6_faq2_question": "Usuários de iOS podem jogar?",
+        "section6_faq2_answer": "Atualmente, o jogo suporta apenas Android. Usuários de iOS podem usar um emulador Android.",
+        "section6_faq3_question": "Existem compras no jogo?",
+        "section6_faq3_answer": "Não. Tanto o APK quanto os itens do jogo são gratuitos."
     },
     "page4": {
-        "metatitle": "Chaves Nightmares Download|Última versão para Windows e Android",
-        "metadescrib": "Download gratuito da versão mais recente de Chaves Nightmares. Suporta Windows e Android com acesso completo à última versão, baixe pelo site oficial.",
-        "title1": "Última versão para download em Windows e Android",
-        "content1-1": "O download mais recente de Chaves Nightmares é baseado na versão 1.0.4, publicado oficialmente pelo desenvolvedor no fórum do jogo em janeiro de 2026.",
-        "content1-2": "Esta versão está disponível para PCs com Windows e dispositivos Android. Usuários de iOS atualmente não podem instalar o jogo, e não há modo online ou baseado na nuvem incluído nesta versão.",
-        "content1-3": "Para garantir a segurança dos arquivos e a instalação correta, o link de download direciona para a fonte oficial. Depois de instalado, o jogo pode ser jogado offline sem etapas adicionais de verificação.",
-        "title2": "Dicas do jogo",
-        "content2-1": "Em Chaves Nightmares, o progresso não depende da velocidade, mas da atenção. Você assume o papel de um detetive em um ambiente hostil, onde cada noite apresenta novas situações.",
-        "content2-2": "Em vez de combate, o jogo incentiva movimentos cuidadosos e observação do ambiente. Alguns eventos aparecem apenas após ações específicas, tornando a exploração uma parte importante da narrativa.",
-        "content2-3": "Se você deseja entender melhor como esses sistemas funcionam, pode conferir a seção How to Play para guias estendidos e walkthroughs.",
-        "title3": "Recursos da versão atual",
-        "content3-1": "Esta versão foca em manter um fluxo de jogo suave e previsível:",
-        "content3-2": "A versão 1.0.4 não altera a mecânica principal, mas oferece uma experiência consistente para completar o jogo sem distrações técnicas.",
-        "content3-3-1": "Desempenho estável durante sessões prolongadas",
-        "content3-3-2": "Resposta de controles limpa em dispositivos suportados",
-        "content3-3-3": "Apresentação 2D projetada para visão e espaço limitados",
-        "content3-3-4": "Sinais sonoros que ajudam a antecipar ameaças próximas"
+        "metatitle": "Chaves Nightmares Download | Windows e Android",
+        "metadescrib": "Download gratuito da versão mais recente de Chaves Nightmares. Suporta Windows e Android com acesso completo à versão mais recente, baixe no site oficial.",
+        "title": "Chaves Nightmares Download",
+        "intro": "Esta página fornece uma visão completa dos métodos de download de Chaves Nightmares, etapas de instalação, informações de segurança e perguntas frequentes. É projetada para ajudar os jogadores a se prepararem antes de jogar e evitar problemas comuns de download ou instalação.",
+        "section1": {
+            "title": "Chaves Nightmares está disponível para download?",
+            "content": "Chaves Nightmares é um jogo de terror psicológico de sobrevivência focado em atmosfera e tensão. A jogabilidade enfatiza observação, tomada de decisões e mecânicas de sobrevivência noturna. A versão lançada atualmente é V1.0.4, embora os formatos de distribuição possam variar em diferentes fóruns da comunidade.",
+            "featuresTitle": "Atualmente, a versão oficial inclui as seguintes características:",
+            "features": [
+                "O idioma padrão do jogo é o português",
+                "Suporta plataformas Windows e Android",
+                "Ainda não está disponível uma versão oficial multilíngue"
+            ],
+            "notesTitle": "Antes de baixar, os jogadores devem prestar atenção aos seguintes pontos:",
+            "notes": [
+                {
+                    "title": "O jogo é uma versão oficial?",
+                    "content": "Este site fornece recursos APK oficiais verificados e seguros. Os jogadores podem acessar a seção de download para evitar instalar versões modificadas não oficiais."
+                },
+                {
+                    "title": "Existem restrições regionais?",
+                    "content": "O jogo não aplica bloqueios regionais. No entanto, como a versão oficial suporta apenas português, jogadores que procuram outros idiomas geralmente dependem de fóruns da comunidade ou soluções feitas pelos jogadores."
+                }
+            ]
+        },
+        "section2": {
+            "title": "Opções de download de Chaves Nightmares",
+            "android": {
+                "title": "Download oficial para Android",
+                "content": "Usuários Android podem obter o jogo diretamente através dos links de download fornecidos nesta página.",
+                "advantagesTitle": "Baixar de fontes oficiais oferece várias vantagens:",
+                "advantages": [
+                    "Fonte de arquivo clara e rastreável",
+                    "Alta integridade do arquivo",
+                    "Menor risco de segurança"
+                ],
+                "summary": "Sempre que possível, usar os canais de download oficiais é a opção mais confiável."
+            },
+            "other": {
+                "title": "Outras fontes de download",
+                "content": "Se o jogo não puder ser acessado através dos canais padrão em certas regiões, alguns jogadores podem recorrer a fontes alternativas. Nesses casos, é necessária cautela extra.",
+                "warnings": [
+                    "Arquivos APK não significam automaticamente versões crackeadas",
+                    "APKs modificados não oficiais podem apresentar riscos de segurança",
+                    "Versões que afirmam recursos ilimitados ou remoção de anúncios geralmente são pouco confiáveis"
+                ],
+                "checkTitle": "Se a instalação de APK for necessária, os jogadores devem verificar:",
+                "checks": [
+                    "Se a fonte de download está claramente identificada",
+                    "Se o arquivo foi reempacotado",
+                    "Se o aplicativo solicita permissões não relacionadas ao jogo"
+                ],
+                "summary": "Do ponto de vista de estabilidade e segurança, não é recomendado o uso prolongado de arquivos de instalação desconhecidos."
+            },
+            "ios": {
+                "title": "Suporte iOS / iPhone",
+                "content": "Atualmente, a versão oficial de Chaves Nightmares não é compatível com dispositivos iOS ou iPhone, e não está disponível na App Store.",
+                "note": "Alguns jogadores podem tentar executar o jogo através de emuladores Android ou ambientes virtuais. No entanto, o desempenho e a estabilidade podem variar, e este método é recomendado apenas para fins de teste.",
+                "update": "Se uma versão oficial para iOS for lançada no futuro, os anúncios serão publicados através dos canais oficiais."
+            }
+        },
+        "section3": {
+            "title": "Como instalar Chaves Nightmares",
+            "stepsTitle": "Se instalar via arquivo APK, siga estas etapas:",
+            "steps": [
+                "Habilite a instalação a partir de fontes desconhecidas nas configurações do sistema",
+                "Baixe o arquivo APK",
+                "Toque no arquivo para iniciar a instalação",
+                "Desative as permissões de fontes desconhecidas após a instalação"
+            ],
+            "issuesTitle": "Se a instalação falhar, geralmente está relacionada ao ambiente do dispositivo:",
+            "issues": [
+                "O sistema exibe 'App não instalado'",
+                "A versão do Android é muito baixa",
+                "O pacote de instalação está incompleto ou corrompido"
+            ],
+            "summary": "Esses problemas geralmente não são causados pelo próprio jogo e muitas vezes podem ser resolvidos baixando novamente o arquivo ou usando um dispositivo compatível."
+        },
+        "section4": {
+            "title": "Chaves Nightmares é seguro para baixar?",
+            "content": "Preocupações como 'Chaves Nightmares contém um vírus?' estão entre as perguntas mais comuns feitas pelos jogadores.",
+            "points": [
+                "Os arquivos oficiais fornecidos neste site são verificados e considerados seguros",
+                "Os maiores riscos vêm de versões modificadas ou crackeadas",
+                "Arquivos de terceiros desconhecidos podem conter ameaças imprevisíveis"
+            ],
+            "stopTitle": "A instalação deve ser interrompida imediatamente se ocorrer qualquer uma das seguintes:",
+            "stopList": [
+                "Solicita acesso a contatos ou dados de SMS",
+                "Redireciona forçosamente para sites externos",
+                "Exibe pop-ups frequentes após a instalação"
+            ],
+            "summary": "Esses comportamentos são tipicamente causados por arquivos reempacotados em vez do jogo original."
+        },
+        "section5": {
+            "title": "Visão geral do jogo",
+            "content": "Chaves Nightmares não é um jogo de terror tradicional de ritmo rápido. Em vez disso, concentra-se em:",
+            "features": [
+                "Gerenciamento de sobrevivência noturna",
+                "Observação e consciência ambiental",
+                "Identificação e resposta aos padrões de comportamento do inimigo"
+            ],
+            "summary": "O jogo depende de iluminação, design de som e eventos inesperados para criar tensão em vez de uma grande exposição narrativa. Os jogadores devem adaptar continuamente as estratégias com tempo e recursos limitados.",
+            "more": "Para mecânicas detalhadas de jogo e estratégias noturnas, visite a seção de guia de jogo."
+        },
+        "section6": {
+            "title": "Requisitos do sistema",
+            "requirements": [
+                "Android 8.0 ou superior",
+                "Pelo menos 2GB de RAM",
+                "Ambiente de sistema atualizado recomendado"
+            ],
+            "note": "Dispositivos de baixo desempenho podem experimentar tempos de carregamento mais longos ou taxas de quadros instáveis, o que é considerado normal."
+        },
+        "faq": {
+            "title": "Perguntas frequentes",
+            "items": [
+                {
+                    "q": "Chaves Nightmares é gratuito para jogar?",
+                    "a": "Sim. O jogo é gratuito para baixar e pode ser jogado imediatamente após a instalação."
+                },
+                {
+                    "q": "Chaves Nightmares pode ser jogado offline?",
+                    "a": "Sim. O conteúdo principal do jogo não requer conexão com a Internet."
+                },
+                {
+                    "q": "Por que a instalação do APK falha?",
+                    "a": "Razões comuns incluem versão baixa do Android, arquivos de instalação danificados ou restrições de permissões do sistema."
+                },
+                {
+                    "q": "Existem versões modificadas ou crackeadas disponíveis?",
+                    "a": "Tais versões podem existir online, mas não são recomendadas devido a possíveis riscos de segurança."
+                },
+                {
+                    "q": "O jogo continuará recebendo atualizações?",
+                    "a": "A frequência de atualização depende dos planos futuros do desenvolvedor. Os jogadores devem acompanhar os anúncios oficiais."
+                }
+            ]
+        }
     },
     "page5": {
         "metatitle": "Chaves Nightmares & FNAF | Five Nights At Freddy's",
