@@ -9,17 +9,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // 固定时间，避免每次部署全部被判定为更新
     const lastModified = new Date('2026-01-01');
 
-    const articleSlugs = [
-        'chaves-nightmares-1-0-4',
-        'chaves-nightmares-android',
-        'chaves-nightmares-apk',
-        'chaves-nightmares-download',
-        'chaves-nightmares-iphone',
-        'chaves-nightmares-online',
-        'chaves-nightmares-spanish',
-        'chaves-nightmares-virus',
-        'five-nights-at-freddys',
-    ];
 
     const blogSlugs = [
         'chaves-nightmares-diving-abyss',
@@ -57,12 +46,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.6,
         });
 
-        sitemaps.push({
-            url: `${baseUrl}/${locale}/article`,
-            lastModified,
-            changeFrequency: 'monthly',
-            priority: 0.6,
-        });
 
         sitemaps.push({
             url: `${baseUrl}/${locale}/playtips`,
@@ -86,15 +69,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.5,
         });
 
-        // 文章详情页
-        articleSlugs.forEach((slug) => {
-            sitemaps.push({
-                url: `${baseUrl}/${locale}/article/${slug}`,
-                lastModified,
-                changeFrequency: 'monthly',
-                priority: 0.4,
-            });
-        });
 
         blogSlugs.forEach((slug) => {
             sitemaps.push({

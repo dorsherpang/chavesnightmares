@@ -40,7 +40,10 @@ export async function generateMetadata({
         alternates: {
             canonical: canonicalUrl,
             languages: alternates,
-        },
+        }, robots: {
+            index: false,   // 不被收录
+            follow: true    // 仍允许跟踪页面内链接
+        }
     };
 }
 

@@ -53,10 +53,20 @@ export default function Navbar() {
     // 动态生成切换语言后的路径
     const getNewPath = (targetLocale: string) => {
         if (!pathname) return `/${targetLocale}`;
-        const segments = pathname.split('/');
-        segments[1] = targetLocale;
-        return segments.join('/') || `/${targetLocale}`;
+
+        const segments = pathname.split('/').filter(Boolean);
+
+        // 如果第一个 segment 是语言
+        if (LOCALES.includes(segments[0])) {
+            segments[0] = targetLocale;
+        } else {
+            // 没有语言前缀，手动加
+            segments.unshift(targetLocale);
+        }
+
+        return '/' + segments.join('/');
     };
+
 
     const menuItems = [
         { label: t('nav.home') || 'Home', href: `/${locale}` },

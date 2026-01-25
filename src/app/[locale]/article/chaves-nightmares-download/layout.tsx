@@ -63,6 +63,9 @@ export async function generateMetadata({
             title: messages.page4.metatitle,
             description: messages.page4.metadescrib,
             images: ['/mobile-banner.png']
+        }, robots: {
+            index: false,   // 不被收录
+            follow: true    // 仍允许跟踪页面内链接
         }
     };
 }

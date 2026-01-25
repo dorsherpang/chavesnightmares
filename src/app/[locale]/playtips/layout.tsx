@@ -19,7 +19,7 @@ export async function generateMetadata({
         alternates[loc] = `${baseUrl}/${loc}/playtips`;
     });
 
-    const canonicalUrl = locale === 'en' ? `${baseUrl}/playtips` : `${baseUrl}/${locale}/playtips`;
+    const canonicalUrl = `${baseUrl}/${locale}/playtips`;
 
     return {
         title: locale === 'en'

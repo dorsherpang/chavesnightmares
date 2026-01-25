@@ -140,7 +140,7 @@ export default function HomePage() {
             <FAQ />
 
             {/* longtail sections */}
-            <section className="max-w-5xl mx-auto space-y-6">
+            {/* <section className="max-w-5xl mx-auto space-y-6">
                 {longtailArticles.map((item, idx) => (
                     <section
                         key={idx}
@@ -163,7 +163,7 @@ export default function HomePage() {
                     </Link>
                 </div>
                 <br />
-            </section>
+            </section> */}
             <Footer />
 
         </main>

@@ -59,6 +59,9 @@ export async function generateMetadata({
             title: messages.longtail.seotitle,
             description: messages.longtail.seodes,
             images: ['/mobile-banner.png']
+        }, robots: {
+            index: false,   // 不被收录
+            follow: true    // 仍允许跟踪页面内链接
         }
 
     };
