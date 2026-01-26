@@ -51,6 +51,8 @@ export default async function RootLayout({
             });
           `}
         </Script>
+        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4081522395897972"
+          crossOrigin="anonymous" strategy="afterInteractive"></Script>
       </head>
 
       <body className="bg-[#050505] text-white">
