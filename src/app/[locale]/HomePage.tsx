@@ -8,6 +8,7 @@ import FAQ from '@/components/FAQ';
 import MediaSwitcher from '@/components/MediaSwitcher';
 import Footer from '@/components/Footer';
 import { useI18n } from '@/lib/i18n-context';
+import Addads from '@/components/Addads';
 
 export default function HomePage() {
     const { t, locale } = useI18n();
@@ -114,10 +115,12 @@ export default function HomePage() {
                     {t('home.downloadNow')}
                 </Link>
             </div>
-
+            <Addads></Addads>
             {/* 其他组件 */}
             <MediaSwitcher />
+
             <GameIntro />
+
             <GameStory />
             <section className="bg-[#0f0f0f] p-6 rounded-xl border border-[#2a1a1a] shadow-md max-w-5xl mx-auto">
                 <h2 className="text-2xl font-bold text-red-500 mb-6 tracking-widest text-center">

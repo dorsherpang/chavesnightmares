@@ -1,6 +1,7 @@
 "use client";
 
 import { useI18n } from "@/lib/i18n-context";
+import Addads from "@/components/Addads";
 
 export default function DownloadPage() {
     const { t } = useI18n();
@@ -95,7 +96,7 @@ export default function DownloadPage() {
                         {t('download.buttondes')}
                     </p>
                 </div>
-
+                <Addads></Addads>
                 {/* ===== Download Notes ===== */}
                 <section className="space-y-4">
                     <h2 className="text-xl md:text-2xl font-bold tracking-wide text-white">

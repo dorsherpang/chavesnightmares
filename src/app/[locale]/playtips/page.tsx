@@ -2,6 +2,7 @@
 
 import { useI18n } from "@/lib/i18n-context";
 import Image from "next/image";
+import Addads from "@/components/Addads";
 export default function PlayTipsPage() {
     const { t } = useI18n();
 
@@ -76,7 +77,7 @@ export default function PlayTipsPage() {
                     />
                 </div>
             </section>
-
+            <Addads></Addads>
             {/* Characters & Countermeasures */}
             <section className="space-y-4">
                 <h2 className="text-2xl font-semibold text-red-600">{t("playtips.characters.title")}</h2>
@@ -179,7 +180,7 @@ export default function PlayTipsPage() {
                 </div>
             </section>
 
-
+            <Addads></Addads>
             {/* Night-by-Night Guide */}
             <section className="space-y-4">
                 <h2 className="text-2xl font-semibold text-red-600">{t("playtips.night_guide.title")}</h2>
