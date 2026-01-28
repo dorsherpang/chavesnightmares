@@ -83,7 +83,7 @@ export default function DownloadPage() {
                 {/* ===== Download Button ===== */}
                 <div className="text-center">
                     <a
-                        href="https://official-greenjerry.itch.io/chaves-nightmares#download"
+                        href="https://gamejolt.com/games/chavesnightmare/1043959"
                         target="_blank"
                         title="link official web to download software "
                         rel="nofollow noopener noreferrer"
